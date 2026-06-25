@@ -1,662 +1,309 @@
 ---
-# try also 'default' to start simple
-theme: seriph
-# random image from a curated Unsplash collection by Anthony
-# like them? see https://unsplash.com/collections/94734566/slidev
-background: https://cover.sli.dev
-# some information about your slides (markdown enabled)
-title: Welcome to Slidev
-info: |
-  ## Slidev Starter Template
-  Presentation slides for developers.
-
-  Learn more at [Sli.dev](https://sli.dev)
-# apply UnoCSS classes to the current slide
-class: text-center
-# https://sli.dev/features/drawing
-drawings:
-  persist: false
-# slide transition: https://sli.dev/guide/animations.html#slide-transitions
-transition: slide-left
-# enable Comark Syntax: https://comark.dev/syntax/markdown
-comark: true
-# duration of the presentation
-duration: 35min
----
-
-# Welcome to Slidev
-
-Presentation slides for developers
-
-<div @click="$slidev.nav.next" class="mt-12 py-1" hover:bg="white op-10">
-  Press Space for next page <carbon:arrow-right />
-</div>
-
-<div class="abs-br m-6 text-xl">
-  <button @click="$slidev.nav.openInEditor()" title="Open in Editor" class="slidev-icon-btn">
-    <carbon:edit />
-  </button>
-  <a href="https://github.com/slidevjs/slidev" target="_blank" class="slidev-icon-btn">
-    <carbon:logo-github />
-  </a>
-</div>
-
-<!--
-The last comment block of each slide will be treated as slide notes. It will be visible and editable in Presenter Mode along with the slide. [Read more in the docs](https://sli.dev/guide/syntax.html#notes)
--->
-
----
-transition: fade-out
----
-
-# What is Slidev?
-
-Slidev is a slides maker and presenter designed for developers, consist of the following features
-
-- 📝 **Text-based** - focus on the content with Markdown, and then style them later
-- 🎨 **Themable** - themes can be shared and re-used as npm packages
-- 🧑‍💻 **Developer Friendly** - code highlighting, live coding with autocompletion
-- 🤹 **Interactive** - embed Vue components to enhance your expressions
-- 🎥 **Recording** - built-in recording and camera view
-- 📤 **Portable** - export to PDF, PPTX, PNGs, or even a hostable SPA
-- 🛠 **Hackable** - virtually anything that's possible on a webpage is possible in Slidev
-<br>
-<br>
-
-Read more about [Why Slidev?](https://sli.dev/guide/why)
-
-<!--
-You can have `style` tag in markdown to override the style for the current page.
-Learn more: https://sli.dev/features/slide-scope-style
--->
-
-<style>
-h1 {
-  background-color: #2B90B6;
-  background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
-  background-size: 100%;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -moz-text-fill-color: transparent;
-}
-</style>
-
-<!--
-Here is another comment.
--->
-
----
-transition: slide-up
-level: 2
----
-
-# Navigation
-
-Hover on the bottom-left corner to see the navigation's controls panel, [learn more](https://sli.dev/guide/ui#navigation-bar)
-
-## Keyboard Shortcuts
-
-|                                                     |                             |
-| --------------------------------------------------- | --------------------------- |
-| <kbd>right</kbd> / <kbd>space</kbd>                 | next animation or slide     |
-| <kbd>left</kbd>  / <kbd>shift</kbd><kbd>space</kbd> | previous animation or slide |
-| <kbd>up</kbd>                                       | previous slide              |
-| <kbd>down</kbd>                                     | next slide                  |
-
-<!-- https://sli.dev/guide/animations.html#click-animation -->
-<img
-  v-click
-  class="absolute -bottom-9 -left-7 w-80 opacity-50"
-  src="https://sli.dev/assets/arrow-bottom-left.svg"
-  alt=""
-/>
-<p v-after class="absolute bottom-23 left-45 opacity-30 transform -rotate-10">Here!</p>
-
----
-layout: two-cols
-layoutClass: gap-16
----
-
-# Table of contents
-
-You can use the `Toc` component to generate a table of contents for your slides:
-
-```html
-<Toc minDepth="1" maxDepth="1" />
-```
-
-The title will be inferred from your slide content, or you can override it with `title` and `level` in your frontmatter.
-
-::right::
-
-<Toc text-sm minDepth="1" maxDepth="2" />
-
----
-layout: image-right
-image: https://cover.sli.dev
----
-
-# Code
-
-Use code snippets and get the highlighting directly, and even types hover!
-
-```ts [filename-example.ts] {all|4|6|6-7|9|all} twoslash
-// TwoSlash enables TypeScript hover information
-// and errors in markdown code blocks
-// More at https://shiki.style/packages/twoslash
-import { computed, ref } from 'vue'
-
-const count = ref(0)
-const doubled = computed(() => count.value * 2)
-
-doubled.value = 2
-```
-
-<arrow v-click="[4, 5]" x1="350" y1="310" x2="195" y2="342" color="#953" width="2" arrowSize="1" />
-
-<!-- This allow you to embed external code blocks -->
-<<< @/snippets/external.ts#snippet
-
-<!-- Footer -->
-
-[Learn more](https://sli.dev/features/line-highlighting)
-
-<!-- Inline style -->
-<style>
-.footnotes-sep {
-  @apply mt-5 opacity-10;
-}
-.footnotes {
-  @apply text-sm opacity-75;
-}
-.footnote-backref {
-  display: none;
-}
-</style>
-
-<!--
-Notes can also sync with clicks
-
-[click] This will be highlighted after the first click
-
-[click] Highlighted with `count = ref(0)`
-
-[click:3] Last click (skip two clicks)
--->
-
----
-level: 2
----
-
-# Shiki Magic Move
-
-Powered by [shiki-magic-move](https://shiki-magic-move.netlify.app/), Slidev supports animations across multiple code snippets.
-
-Add multiple code blocks and wrap them with <code>````md magic-move</code> (four backticks) to enable the magic move. For example:
-
-````md magic-move {lines: true}
-```ts {*|2|*}
-// step 1
-const author = reactive({
-  name: 'John Doe',
-  books: [
-    'Vue 2 - Advanced Guide',
-    'Vue 3 - Basic Guide',
-    'Vue 4 - The Mystery'
-  ]
-})
-```
-
-```ts {*|1-2|3-4|3-4,8}
-// step 2
-export default {
-  data() {
-    return {
-      author: {
-        name: 'John Doe',
-        books: [
-          'Vue 2 - Advanced Guide',
-          'Vue 3 - Basic Guide',
-          'Vue 4 - The Mystery'
-        ]
-      }
-    }
-  }
-}
-```
-
-```ts
-// step 3
-export default {
-  data: () => ({
-    author: {
-      name: 'John Doe',
-      books: [
-        'Vue 2 - Advanced Guide',
-        'Vue 3 - Basic Guide',
-        'Vue 4 - The Mystery'
-      ]
-    }
-  })
-}
-```
-
-Non-code blocks are ignored.
-
-```vue
-<!-- step 4 -->
-<script setup>
-const author = {
-  name: 'John Doe',
-  books: [
-    'Vue 2 - Advanced Guide',
-    'Vue 3 - Basic Guide',
-    'Vue 4 - The Mystery'
-  ]
-}
-</script>
-```
-````
-
----
-
-# Components
-
-<div grid="~ cols-2 gap-4">
-<div>
-
-You can use Vue components directly inside your slides.
-
-We have provided a few built-in components like `<Tweet/>`, `<BlueSky/>`, and `<Youtube/>` that you can use directly. And adding your custom components is also super easy.
-
-```html
-<Counter :count="10" />
-```
-
-<!-- ./components/Counter.vue -->
-<Counter :count="10" m="t-4" />
-
-Check out [the guides](https://sli.dev/builtin/components.html) for more.
-
-</div>
-<div>
-
-```html
-<Tweet id="1390115482657726468" />
-```
-
-<Tweet id="1390115482657726468" scale="0.65" />
-
-</div>
-</div>
-
-<!--
-Presenter note with **bold**, *italic*, and ~~striked~~ text.
-
-Also, HTML elements are valid:
-<div class="flex w-full">
-  <span style="flex-grow: 1;">Left content</span>
-  <span>Right content</span>
-</div>
--->
-
----
-class: px-20
----
-
-# Themes
-
-Slidev comes with powerful theming support. Themes can provide styles, layouts, components, or even configurations for tools. Switching between themes by just **one edit** in your frontmatter:
-
-<div grid="~ cols-2 gap-2" m="t-2">
-
-```yaml
----
 theme: default
----
-```
-
-```yaml
----
-theme: seriph
----
-```
-
-<img border="rounded" src="https://github.com/slidevjs/themes/blob/main/screenshots/theme-default/01.png?raw=true" alt="">
-
-<img border="rounded" src="https://github.com/slidevjs/themes/blob/main/screenshots/theme-seriph/01.png?raw=true" alt="">
-
-</div>
-
-Read more about [How to use a theme](https://sli.dev/guide/theme-addon#use-theme) and
-check out the [Awesome Themes Gallery](https://sli.dev/resources/theme-gallery).
-
+title: toggle.solutions — Case Studies (B2B)
+highlighter: shiki
+transition: slide-left
+colorSchema: dark
 ---
 
-# Clicks Animations
-
-You can add `v-click` to elements to add a click animation.
-
-<div v-click>
-
-This shows up when you press <kbd>space</kbd> or <kbd>right</kbd>, or click outside the slide on the right.
-
-```html
-<div v-click>This shows up when you trigger a click animation.</div>
-```
-
-</div>
-
-<p v-click>
-You can also add modifiers to change the animation:
-</p>
-
-<div class="grid gap-3 mt-4 text-sm" style="grid-template-columns: repeat(3, 1fr) 1.5fr 1fr">
-  <div v-after.up class="p-3 rounded border border-primary/20 bg-primary/10">
-    <div class="font-mono text-xs opacity-60 mb-1">v-click.up</div>
-    <div>Slide from bottom</div>
-  </div>
-  <div v-click.fade-in class="p-3 rounded border border-primary/30 bg-primary/15">
-    <div class="font-mono text-xs opacity-60 mb-1">v-click.fade-in</div>
-    <div>Fade in</div>
-  </div>
-  <div v-click.fade class="p-3 rounded border border-primary/40 bg-primary/20">
-    <div class="font-mono text-xs opacity-60 mb-1">v-click.fade</div>
-    <div>Dim (0.5 opacity)</div>
-  </div>
-  <div v-click.fade.right.scale class="p-3 rounded border border-primary/50 bg-primary/25">
-    <div class="font-mono text-xs opacity-60 mb-1">v-click.fade.right.scale</div>
-    <div>Composed</div>
-  </div>
-  <div v-click.none class="p-3 rounded border border-primary/60 bg-primary/30">
-    <div class="font-mono text-xs opacity-60 mb-1">v-click.none</div>
-    <div>No transition</div>
-  </div>
-</div>
-
-<v-click>
-
-The <span v-mark.red="7"><code>v-mark</code> directive</span>
-also allows you to add
-<span v-mark.circle.orange="8">inline marks</span>
-, powered by [Rough Notation](https://roughnotation.com/):
-
-```html
-<span v-mark.underline.orange>inline markers</span>
-```
-
-</v-click>
-
-<div v-click mt-12>
-
-[Learn more](https://sli.dev/guide/animations#click-animation)
-
-</div>
-
----
-
-# Motions
-
-Motion animations are powered by [@vueuse/motion](https://motion.vueuse.org/), triggered by `v-motion` directive.
-
-```html
-<div
-  v-motion
-  :initial="{ x: -80 }"
-  :enter="{ x: 0 }"
-  :click-3="{ x: 80 }"
-  :leave="{ x: 1000 }"
->
-  Slidev
-</div>
-```
-
-<div class="w-60 relative">
-  <div class="relative w-40 h-40">
-    <img
-      v-motion
-      :initial="{ x: 800, y: -100, scale: 1.5, rotate: -50 }"
-      :enter="final"
-      class="absolute inset-0"
-      src="https://sli.dev/logo-square.png"
-      alt=""
-    />
-    <img
-      v-motion
-      :initial="{ y: 500, x: -100, scale: 2 }"
-      :enter="final"
-      class="absolute inset-0"
-      src="https://sli.dev/logo-circle.png"
-      alt=""
-    />
-    <img
-      v-motion
-      :initial="{ x: 600, y: 400, scale: 2, rotate: 100 }"
-      :enter="final"
-      class="absolute inset-0"
-      src="https://sli.dev/logo-triangle.png"
-      alt=""
-    />
-  </div>
-
-  <div
-    class="text-5xl absolute top-14 left-40 text-[#2B90B6] -z-1"
-    v-motion
-    :initial="{ x: -80, opacity: 0}"
-    :enter="{ x: 0, opacity: 1, transition: { delay: 2000, duration: 1000 } }">
-    Slidev
-  </div>
-</div>
-
-<!-- vue script setup scripts can be directly used in markdown, and will only affects current page -->
-<script setup lang="ts">
-const final = {
-  x: 0,
-  y: 0,
-  rotate: 0,
-  scale: 1,
-  transition: {
-    type: 'spring',
-    damping: 10,
-    stiffness: 20,
-    mass: 2
-  }
-}
-</script>
-
-<div
-  v-motion
-  :initial="{ x:35, y: 30, opacity: 0}"
-  :enter="{ y: 0, opacity: 1, transition: { delay: 3500 } }">
-
-[Learn more](https://sli.dev/guide/animations.html#motion)
-
-</div>
-
----
-
-# $\LaTeX$
-
-$\LaTeX$ is supported out-of-box. Powered by [$\KaTeX$](https://katex.org/).
-
-<div h-3 />
-
-Inline $\sqrt{3x-1}+(1+x)^2$
-
-Block
-$$ {1|3|all}
-\begin{aligned}
-\nabla \cdot \vec{E} &= \frac{\rho}{\varepsilon_0} \\
-\nabla \cdot \vec{B} &= 0 \\
-\nabla \times \vec{E} &= -\frac{\partial\vec{B}}{\partial t} \\
-\nabla \times \vec{B} &= \mu_0\vec{J} + \mu_0\varepsilon_0\frac{\partial\vec{E}}{\partial t}
-\end{aligned}
-$$
-
-[Learn more](https://sli.dev/features/latex)
-
----
-
-# Diagrams
-
-You can create diagrams / graphs from textual descriptions, directly in your Markdown.
-
-<div class="grid grid-cols-4 gap-5 pt-4 -mb-6">
-
-```mermaid {scale: 0.5, alt: 'A simple sequence diagram'}
-sequenceDiagram
-    Alice->John: Hello John, how are you?
-    Note over Alice,John: A typical interaction
-```
-
-```mermaid {theme: 'neutral', scale: 0.8}
-graph TD
-B[Text] --> C{Decision}
-C -->|One| D[Result 1]
-C -->|Two| E[Result 2]
-```
-
-```mermaid
-mindmap
-  root((mindmap))
-    Origins
-      Long history
-      ::icon(fa fa-book)
-      Popularisation
-        British popular psychology author Tony Buzan
-    Research
-      On effectiveness<br/>and features
-      On Automatic creation
-        Uses
-            Creative techniques
-            Strategic planning
-            Argument mapping
-    Tools
-      Pen and paper
-      Mermaid
-```
-
-```plantuml {scale: 0.7}
-@startuml
-
-package "Some Group" {
-  HTTP - [First Component]
-  [Another Component]
-}
-
-node "Other Groups" {
-  FTP - [Second Component]
-  [First Component] --> FTP
-}
-
-cloud {
-  [Example 1]
-}
-
-database "MySql" {
-  folder "This is my folder" {
-    [Folder 3]
-  }
-  frame "Foo" {
-    [Frame 4]
-  }
-}
-
-[Another Component] --> [Example 1]
-[Example 1] --> [Folder 3]
-[Folder 3] --> [Frame 4]
-
-@enduml
-```
-
-</div>
-
-Learn more: [Mermaid Diagrams](https://sli.dev/features/mermaid) and [PlantUML Diagrams](https://sli.dev/features/plantuml)
-
----
-foo: bar
-dragPos:
-  square: 691,32,167,_,-16
----
-
-# Draggable Elements
-
-Double-click on the draggable elements to edit their positions.
-
-<br>
-
-###### Directive Usage
-
-```md
-<img v-drag="'square'" src="https://sli.dev/logo.png">
-```
-
-<br>
-
-###### Component Usage
-
-```md
-<v-drag text-3xl>
-  <div class="i-carbon:arrow-up" />
-  Use the `v-drag` component to have a draggable container!
-</v-drag>
-```
-
-<v-drag pos="663,206,261,_,-15">
-  <div text-center text-3xl border border-main rounded>
-    Double-click me!
-  </div>
-</v-drag>
-
-<img v-drag="'square'" src="https://sli.dev/logo.png">
-
-###### Draggable Arrow
-
-```md
-<v-drag-arrow two-way />
-```
-
-<v-drag-arrow pos="67,452,253,46" two-way op70 />
-
----
-src: ./pages/imported-slides.md
-hide: false
----
-
----
-
-# Monaco Editor
-
-Slidev provides built-in Monaco Editor support.
-
-Add `{monaco}` to the code block to turn it into an editor:
-
-```ts {monaco}
-import { ref } from 'vue'
-import { emptyArray } from './external'
-
-const arr = ref(emptyArray(10))
-```
-
-Use `{monaco-run}` to create an editor that can execute the code directly in the slide:
-
-```ts {monaco-run}
-import { version } from 'vue'
-import { emptyArray, sayHello } from './external'
-
-sayHello()
-console.log(`vue ${version}`)
-console.log(emptyArray<number>(10).reduce(fib => [...fib, fib.at(-1)! + fib.at(-2)!], [1, 1]))
-```
+<style>
+@import './styles/custom.css';
+</style>
 
 ---
 layout: center
 class: text-center
 ---
 
-# Learn More
+<div class="outro-wrapper">
+  <img src="https://placehold.co/220x100/0d0d0d/4F8EF7?text=toggle.solutions" alt="toggle.solutions" style="margin-bottom:0.5rem" />
+  <hr class="accent-rule" />
+  <h1 style="color:#e5e5e5; font-size:2.6rem; margin:0;">Case Studies</h1>
+  <p style="color:#888; font-size:1.1rem; margin:0;">Your Digital Growth Partner · B2B</p>
+</div>
 
-[Documentation](https://sli.dev) · [GitHub](https://github.com/slidevjs/slidev) · [Showcases](https://sli.dev/resources/showcases)
+---
+layout: center
+class: text-center
+transition: slide-left
+---
 
-<PoweredBySlidev mt-10 />
+<span class="industry-tag">B2B SaaS · Atlassian Marketplace · Performance Marketing</span>
+
+<div class="logo-pair">
+  <img src="https://placehold.co/160x80/0d0d0d/4F8EF7?text=toggle.solutions" alt="toggle.solutions" />
+  <span class="logo-divider">×</span>
+  <img src="https://placehold.co/160x80/1a1a1a/4F8EF7?text=Marvelution" alt="Marvelution" />
+</div>
+
+<p class="project-tagline">
+  Jenkins Integration for Jira — visualizing build data inside Jira for development teams.
+</p>
+
+<div class="stats-row" style="margin-top:2rem">
+  <div class="stat"><div class="stat-value">21x</div><div class="stat-label">ROAS</div></div>
+  <div class="stat"><div class="stat-value">4.1x</div><div class="stat-label">ROI</div></div>
+  <div class="stat"><div class="stat-value">+25.4%</div><div class="stat-label">License Revenue</div></div>
+</div>
+
+---
+layout: default
+transition: fade
+---
+
+### What we did for Marvelution
+
+Zero paid advertising and plateaued organic growth — Marvelution needed a new acquisition channel. We spotted an open lane: no competitors running paid and an untapped keyword pool.
+
+<ul class="value-props" style="margin:1rem 0">
+  <li>Google Search — captured high-intent demand from Jenkins/Jira searchers</li>
+  <li>Google Display + Video — 1.45M+ impressions retargeting past site and Marketplace visitors</li>
+  <li>Continuous A/B testing across keywords, landing pages, and creatives to scale winners</li>
+</ul>
+
+<div class="stats-row">
+  <div class="stat"><div class="stat-value">+34.4%</div><div class="stat-label">Evaluations</div></div>
+  <div class="stat"><div class="stat-value">87%</div><div class="stat-label">Traffic from Ads</div></div>
+  <div class="stat"><div class="stat-value">6 mo</div><div class="stat-label">to results</div></div>
+</div>
+
+---
+layout: center
+class: text-center
+transition: slide-left
+---
+
+<span class="industry-tag">B2B SaaS · Atlassian Marketplace · Performance Marketing</span>
+
+<div class="logo-pair">
+  <img src="https://placehold.co/160x80/0d0d0d/4F8EF7?text=toggle.solutions" alt="toggle.solutions" />
+  <span class="logo-divider">×</span>
+  <img src="https://placehold.co/160x80/1a1a1a/4F8EF7?text=Elements" alt="Elements" />
+</div>
+
+<p class="project-tagline">
+  Elements Publish — creates Confluence pages directly from Jira for team knowledge management.
+</p>
+
+<div class="stats-row" style="margin-top:2rem">
+  <div class="stat"><div class="stat-value">−94.6%</div><div class="stat-label">CPA</div></div>
+  <div class="stat"><div class="stat-value">+5,350%</div><div class="stat-label">Conversions</div></div>
+  <div class="stat"><div class="stat-value">+1,000%</div><div class="stat-label">CVR</div></div>
+</div>
+
+---
+layout: default
+transition: fade
+---
+
+### What we did for Elements
+
+Elements was bidding on their product name — keywords too generic for the real use case. We pivoted to the "knowledge management" keyword group where demand was strong and competitors were absent.
+
+<ul class="value-props" style="margin:1rem 0">
+  <li>Identified untapped keyword group with strong volume and no competitor bids</li>
+  <li>Diagnosed ad-to-landing-page relevance gap driving high early CPA</li>
+  <li>Realigned Marketplace listing content to new keywords — unlocking performance</li>
+</ul>
+
+<div class="stats-row">
+  <div class="stat"><div class="stat-value">3 mo</div><div class="stat-label">to results</div></div>
+  <div class="stat"><div class="stat-value">Zero</div><div class="stat-label">Competitor Bids</div></div>
+</div>
+
+---
+layout: center
+class: text-center
+transition: slide-left
+---
+
+<span class="industry-tag">Education · Performance Marketing · Creative Production</span>
+
+<div class="logo-pair">
+  <img src="https://placehold.co/160x80/0d0d0d/4F8EF7?text=toggle.solutions" alt="toggle.solutions" />
+  <span class="logo-divider">×</span>
+  <img src="https://placehold.co/160x80/1a1a1a/4F8EF7?text=UNITAR" alt="UNITAR" />
+</div>
+
+<p class="project-tagline">
+  Southeast Asia's first virtual university — QS 5-Star for Online Learning, 98% graduate employment rate.
+</p>
+
+<div class="stats-row" style="margin-top:2rem">
+  <div class="stat"><div class="stat-value">32k+</div><div class="stat-label">Qualified Leads</div></div>
+  <div class="stat"><div class="stat-value">−47%</div><div class="stat-label">CPL YoY</div></div>
+  <div class="stat"><div class="stat-value">77%</div><div class="stat-label">Impression Share</div></div>
+</div>
+
+---
+layout: default
+transition: fade
+---
+
+### What we did for UNITAR
+
+Rising CPLs across Google, Meta, and TikTok — and inconsistent delivery against aggressive enrollment targets. We built a full-funnel performance engine that scaled past RM11M/month at stable CPLs.
+
+<ul class="value-props" style="margin:1rem 0">
+  <li>Messaging matrix — TOF curiosity, MOF reassurance, BOF urgency mapped to student journey</li>
+  <li>Channel diversification — Google SEM + PMax, Meta lead forms, TikTok awareness</li>
+  <li>Facebook CAPI + layered intent/lookalike audiences + disciplined spend pacing</li>
+</ul>
+
+<div class="stats-row">
+  <div class="stat"><div class="stat-value">RM11M+</div><div class="stat-label">Monthly Spend</div></div>
+  <div class="stat"><div class="stat-value">Jun–Sep 2025</div><div class="stat-label">Campaign Period</div></div>
+</div>
+
+---
+layout: center
+class: text-center
+transition: slide-left
+---
+
+<span class="industry-tag">Insurance · Singapore · SEO</span>
+
+<div class="logo-pair">
+  <img src="https://placehold.co/160x80/0d0d0d/4F8EF7?text=toggle.solutions" alt="toggle.solutions" />
+  <span class="logo-divider">×</span>
+  <img src="https://placehold.co/160x80/1a1a1a/4F8EF7?text=Singlife" alt="Singlife" />
+</div>
+
+<p class="project-tagline">
+  Leading digital-first insurer in Singapore — life, health, and investment-linked products in a YMYL category.
+</p>
+
+<div class="stats-row" style="margin-top:2rem">
+  <div class="stat"><div class="stat-value">#3 → #1</div><div class="stat-label">Rankings</div></div>
+  <div class="stat"><div class="stat-value">+23%</div><div class="stat-label">Organic Clicks</div></div>
+  <div class="stat"><div class="stat-value">3 mo</div><div class="stat-label">to results</div></div>
+</div>
+
+---
+layout: default
+transition: fade
+---
+
+### What we did for Singlife
+
+Core keywords stuck at #3 in a regulated YMYL category — competitors out-publishing with long-form authoritative content. We strengthened E-E-A-T signals to meet Google's bar.
+
+<ul class="value-props" style="margin:1rem 0">
+  <li>Intent-aligned content expansion — informational, comparison, and transactional queries</li>
+  <li>E-E-A-T signals — credibility markers, factual accuracy, YMYL-appropriate presentation</li>
+  <li>Structural optimization — H1–H3 hierarchy, internal linking, keyword prominence</li>
+</ul>
+
+<div class="stats-row">
+  <div class="stat"><div class="stat-value">3 mo</div><div class="stat-label">to #1</div></div>
+  <div class="stat"><div class="stat-value">YMYL</div><div class="stat-label">Category Won</div></div>
+</div>
+
+---
+layout: center
+class: text-center
+transition: slide-left
+---
+
+<span class="industry-tag">Insurance · Singapore · SEO</span>
+
+<div class="logo-pair">
+  <img src="https://placehold.co/160x80/0d0d0d/4F8EF7?text=toggle.solutions" alt="toggle.solutions" />
+  <span class="logo-divider">×</span>
+  <img src="https://placehold.co/160x80/1a1a1a/4F8EF7?text=Great+Eastern" alt="Great Eastern" />
+</div>
+
+<p class="project-tagline">
+  One of the region's leading insurers — life, health, and general products competing hard for organic dominance.
+</p>
+
+<div class="stats-row" style="margin-top:2rem">
+  <div class="stat"><div class="stat-value">#4 → #1</div><div class="stat-label">Rankings</div></div>
+  <div class="stat"><div class="stat-value">+16%</div><div class="stat-label">Organic Clicks</div></div>
+  <div class="stat"><div class="stat-value">2 mo</div><div class="stat-label">to results</div></div>
+</div>
+
+---
+layout: default
+transition: fade
+---
+
+### What we did for Great Eastern
+
+Rankings stagnant at #4 for high-intent terms like "insurance plan." Meta titles lacked keyword targeting and snippets weren't optimized for CTR. We delivered #1 in two months.
+
+<ul class="value-props" style="margin:1rem 0">
+  <li>Metadata optimization — rewrote title tags and meta descriptions for keyword prominence</li>
+  <li>Keyword–content alignment — strengthened heading hierarchy on priority pages</li>
+  <li>SERP performance — improved semantic coverage on highest commercial-value pages</li>
+</ul>
+
+<div class="stats-row">
+  <div class="stat"><div class="stat-value">2 mo</div><div class="stat-label">to #1</div></div>
+  <div class="stat"><div class="stat-value">Fast</div><div class="stat-label">No Rebuild Needed</div></div>
+</div>
+
+---
+layout: center
+class: text-center
+transition: slide-left
+---
+
+<span class="industry-tag">Banking · Malaysia · SEO</span>
+
+<div class="logo-pair">
+  <img src="https://placehold.co/160x80/0d0d0d/4F8EF7?text=toggle.solutions" alt="toggle.solutions" />
+  <span class="logo-divider">×</span>
+  <img src="https://placehold.co/160x80/1a1a1a/4F8EF7?text=CIMB+Bank" alt="CIMB Bank" />
+</div>
+
+<p class="project-tagline">
+  One of the region's leading banks — retail banking, cards, loans, wealth, and corporate services.
+</p>
+
+<div class="stats-row" style="margin-top:2rem">
+  <div class="stat"><div class="stat-value">+52.6%</div><div class="stat-label">Impressions</div></div>
+  <div class="stat"><div class="stat-value">+34.5%</div><div class="stat-label">Organic Clicks</div></div>
+  <div class="stat"><div class="stat-value">2× digit</div><div class="stat-label">Rank Gains</div></div>
+</div>
+
+---
+layout: default
+transition: fade
+---
+
+### What we did for CIMB Bank
+
+Limited keyword depth, weak topical authority, and redundant blog content diluting quality signals — inside a large, slow-moving enterprise with internal approval cycles.
+
+<ul class="value-props" style="margin:1rem 0">
+  <li>Content pruning — audited and consolidated redundant articles to lift quality signals</li>
+  <li>High-intent content — built keyword-focused articles against priority financial topic gaps</li>
+  <li>Topical clusters — internal-linking structure aligned to CIMB's core product pillars</li>
+  <li>Workflow streamlining — faster stakeholder approvals to accelerate publishing velocity</li>
+</ul>
+
+<div class="stats-row">
+  <div class="stat"><div class="stat-value">12 mo</div><div class="stat-label">Engagement</div></div>
+  <div class="stat"><div class="stat-value">Enterprise</div><div class="stat-label">Scale</div></div>
+</div>
+
+---
+layout: center
+class: text-center
+transition: slide-left
+---
+
+<div class="outro-wrapper">
+  <img src="https://placehold.co/220x100/0d0d0d/4F8EF7?text=toggle.solutions" alt="toggle.solutions" />
+  <hr class="accent-rule" />
+  <p class="outro-tagline">
+    Ready to scale your next<br/>stage of growth?
+  </p>
+  <div class="social-row">
+    <a href="https://toggle.solutions" target="_blank">🌐 toggle.solutions</a>
+    <a href="https://instagram.com/toggle.solutions" target="_blank">📷 Instagram</a>
+    <a href="https://linkedin.com/company/toggle-solutions" target="_blank">💼 LinkedIn</a>
+    <a href="mailto:hello@toggle.solutions">✉️ hello@toggle.solutions</a>
+  </div>
+</div>
