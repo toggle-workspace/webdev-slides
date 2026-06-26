@@ -50,7 +50,7 @@ class: p-0
     </div>
   </div>
   <div class="flex items-center justify-center bg-white/[0.01] border-l border-white/[0.05] overflow-hidden">
-    <img src="/image/screenshots/hp-cover.png" class="w-full h-full object-cover object-top" />
+    <img src="/image/screenshots/sourceflow/cover.png" class="w-full h-full object-cover object-top" />
   </div>
 </div>
 
@@ -196,7 +196,7 @@ class: p-0
     </div>
   </div>
   <div class="flex items-center justify-center bg-white/[0.01] border-l border-white/[0.05] overflow-hidden">
-    <img :src="'/image/clients/aeroglobal-hero.png'" class="w-full h-full object-cover object-top" />
+    <img src="/image/screenshots/aeroglobal/cover.png" class="w-full h-full object-cover object-top" />
   </div>
 </div>
 
