@@ -7,6 +7,7 @@ colorSchema: dark
 layout: center
 class: text-center
 css: unocss
+routerMode: hash
 ---
 
 <!-- DECK COVER -->
