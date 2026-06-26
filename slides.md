@@ -375,7 +375,7 @@ class: p-0
         <span class="w-2.5 h-2.5 rounded-full bg-[#28c840] shrink-0"></span>
         <span class="h-3.5 bg-white/5 rounded flex-1 max-w-[60%] mx-auto text-[0.55rem] text-neutral-600 flex items-center justify-center px-2">awam.org.my</span>
       </div>
-      <img :src="'/image/clients/awam-hero.png'" class="w-full block aspect-video object-cover object-top" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" />
+      <img :src="'/image/screenshots/awam/cover.png'" class="w-full block aspect-video object-cover object-top" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" />
       <div class="w-full aspect-video bg-white/[0.02] items-center justify-center text-neutral-800 text-xs hidden">Homepage screenshot</div>
     </div>
   </div>
