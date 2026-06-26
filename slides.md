@@ -19,7 +19,7 @@ routerMode: hash
 
 ---
 layout: default
-class: p-0
+class: p-0 hero-gradient
 ---
 
 <!-- SOURCEFLOW — HERO -->
@@ -166,7 +166,7 @@ class: p-0
 
 ---
 layout: default
-class: p-0
+class: p-0 hero-gradient
 ---
 
 <!-- AERO GLOBAL FUELS — HERO -->
@@ -329,7 +329,7 @@ class: p-0
 
 ---
 layout: default
-class: p-0
+class: p-0 hero-gradient
 ---
 
 <!-- AWAM — HERO -->
