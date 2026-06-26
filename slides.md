@@ -13,25 +13,8 @@ routerMode: hash
 <!-- DECK COVER -->
 
 <div class="flex flex-col items-center gap-5">
-  <span class="inline-block bg-[#4F8EF7]/10 text-[#4F8EF7] border border-[#4F8EF7]/25 rounded-full px-3 py-1 text-[0.65rem] font-semibold tracking-[0.1em] uppercase">Web Development Portfolio</span>
   <img src="/image/brand/logo-dark.svg" class="w-52" />
-  <p class="text-base text-neutral-400 max-w-lg m-0">Fast, focused digital products for B2B teams.</p>
-  <div class="flex bg-white/[0.03] border border-white/[0.07] rounded-xl mt-4">
-    <div class="flex flex-col items-center gap-0.5 px-8 py-4">
-      <span class="text-[2rem] font-bold text-[#4F8EF7] leading-none">10+</span>
-      <span class="text-[0.65rem] text-neutral-600 uppercase tracking-[0.08em] mt-1">Clients</span>
-    </div>
-    <div class="w-px bg-white/[0.07] self-stretch"></div>
-    <div class="flex flex-col items-center gap-0.5 px-8 py-4">
-      <span class="text-[2rem] font-bold text-[#4F8EF7] leading-none">20+</span>
-      <span class="text-[0.65rem] text-neutral-600 uppercase tracking-[0.08em] mt-1">Projects</span>
-    </div>
-    <div class="w-px bg-white/[0.07] self-stretch"></div>
-    <div class="flex flex-col items-center gap-0.5 px-8 py-4">
-      <span class="text-[2rem] font-bold text-[#4F8EF7] leading-none">3+</span>
-      <span class="text-[0.65rem] text-neutral-600 uppercase tracking-[0.08em] mt-1">Years</span>
-    </div>
-  </div>
+  <p class="text-base text-neutral-400 max-w-lg m-0">Web Development portfolio</p>
 </div>
 
 ---
@@ -44,7 +27,7 @@ class: p-0
 <div class="grid grid-cols-[44%_56%] h-full w-full">
   <div class="flex flex-col justify-center gap-4 py-12 pl-12 pr-8">
     <span class="inline-block bg-[#4F8EF7]/10 text-[#4F8EF7] border border-[#4F8EF7]/25 rounded-full px-3 py-1 text-[0.65rem] font-semibold tracking-[0.1em] uppercase w-fit">B2B SaaS / Talent Acquisition</span>
-    <h1 class="text-[2.6rem] font-bold text-white leading-[1.05] m-0 tracking-tight">Sourceflow</h1>
+    <img src="/image/logos/sourceflow.png" class="h-10 w-auto object-contain object-left" />
     <p class="text-[0.85rem] text-neutral-300 leading-relaxed m-0">Sourceflow's recruitment client needed a site built around a live job portal — branded, integrated, and ready. We shipped it in two weeks.</p>
     <div class="flex gap-0">
       <div class="flex flex-col gap-0.5 pr-6 mr-6 border-r border-white/[0.07]">
@@ -61,8 +44,8 @@ class: p-0
       </div>
     </div>
     <div class="flex items-center gap-1.5 flex-wrap">
-      <span class="text-[0.62rem] font-bold text-neutral-700 uppercase tracking-[0.08em] mr-1">Stack</span>
-      <img src="/image/logos/react.svg" class="h-3.5 w-auto" />
+      <span class="text-[0.62rem] font-bold text-neutral-700 uppercase tracking-[0.08em] mr-1">Technologies used</span>
+      <img src="/image/logos/react.svg" class="h-12 w-auto" />
       <img src="/image/logos/tailwindcss.svg" class="h-3 w-auto" />
     </div>
   </div>
@@ -191,7 +174,7 @@ class: p-0
 <div class="grid grid-cols-[44%_56%] h-full w-full">
   <div class="flex flex-col justify-center gap-4 py-12 pl-12 pr-8">
     <span class="inline-block bg-[#4F8EF7]/10 text-[#4F8EF7] border border-[#4F8EF7]/25 rounded-full px-3 py-1 text-[0.65rem] font-semibold tracking-[0.1em] uppercase w-fit">Aerospace</span>
-    <h1 class="text-[2.6rem] font-bold text-white leading-[1.05] m-0 tracking-tight">Aero Global Fuels</h1>
+    <img src="/image/logos/agfuels.png" class="h-10 w-auto object-contain object-left" />
     <p class="text-[0.85rem] text-neutral-300 leading-relaxed m-0">Malaysia's jet fuel supplier to private, commercial, and government aircraft. Their website was losing them clients — broken links, dead contact forms, no way to reach the team. We rebuilt it.</p>
     <div class="flex gap-0">
       <div class="flex flex-col gap-0.5 pr-6 mr-6 border-r border-white/[0.07]">
@@ -208,7 +191,7 @@ class: p-0
       </div>
     </div>
     <div class="flex items-center gap-1.5 flex-wrap">
-      <span class="text-[0.62rem] font-bold text-neutral-700 uppercase tracking-[0.08em] mr-1">Stack</span>
+      <span class="text-[0.62rem] font-bold text-neutral-700 uppercase tracking-[0.08em] mr-1">Technologies used</span>
       <img src="/image/logos/wordpress.svg" class="h-3.5 w-auto" />
     </div>
   </div>
@@ -363,7 +346,7 @@ class: p-0
 <div class="grid grid-cols-[44%_56%] h-full w-full">
   <div class="flex flex-col justify-center gap-4 py-12 pl-12 pr-8">
     <span class="inline-block bg-[#4F8EF7]/10 text-[#4F8EF7] border border-[#4F8EF7]/25 rounded-full px-3 py-1 text-[0.65rem] font-semibold tracking-[0.1em] uppercase w-fit">Non-Profit / NGO</span>
-    <h1 class="text-[2.6rem] font-bold text-white leading-[1.05] m-0 tracking-tight">AWAM</h1>
+    <img src="/image/logos/awam.png" class="h-10 w-auto object-contain object-left" />
     <p class="text-[0.85rem] text-neutral-300 leading-relaxed m-0">AWAM runs women's rights advocacy, a 24-hour helpline, and public education programmes across Malaysia. Their website wasn't keeping pace. We rebuilt it from the ground up.</p>
     <div class="flex gap-0">
       <div class="flex flex-col gap-0.5 pr-6 mr-6 border-r border-white/[0.07]">
@@ -380,7 +363,7 @@ class: p-0
       </div>
     </div>
     <div class="flex items-center gap-1.5 flex-wrap">
-      <span class="text-[0.62rem] font-bold text-neutral-700 uppercase tracking-[0.08em] mr-1">Stack</span>
+      <span class="text-[0.62rem] font-bold text-neutral-700 uppercase tracking-[0.08em] mr-1">Technologies used</span>
       <img src="/image/logos/wordpress.svg" class="h-3.5 w-auto" />
     </div>
   </div>
