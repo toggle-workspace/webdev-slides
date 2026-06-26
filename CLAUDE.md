@@ -22,9 +22,9 @@ This is a [Slidev](https://sli.dev/) presentation project — a Markdown-driven 
 
 **Custom Vue components** go in `components/` and are auto-imported into slides. `snippets/` holds reusable code snippets.
 
-**Images** are served from `image/` (referenced as `/image/...` in slides).
+**Images** are served from `image/` at the project root (referenced as `/image/...` in slides). Do NOT move images into `public/` — Slidev compiles image references into ES module imports, which Vite can only resolve from the project root, not from `public/`.
 
-**Deployment**: Configured for both Netlify (`netlify.toml`) and Vercel (`vercel.json`). Both serve `dist/` as a SPA with catch-all redirects to `index.html`.
+**Deployment**: Deployed to GitHub Pages via `.github/workflows/deploy.yml`. The build uses `--base ./` (relative) so that assets load correctly and hash-mode routing URLs don't double up the repo name. `vercel.json` and `netlify.toml` are present but not the active deployment targets.
 
 ## Skills
 
