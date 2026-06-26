@@ -1,309 +1,540 @@
 ---
-theme: default
-title: toggle.solutions — Case Studies (B2B)
+theme: light-icons
+title: toggle.solutions — Web Development Portfolio
 highlighter: shiki
 transition: slide-left
 colorSchema: dark
----
-
-<style>
-@import './styles/custom.css';
-</style>
-
----
 layout: center
 class: text-center
+css: unocss
 ---
 
-<div class="outro-wrapper">
-  <img src="https://placehold.co/220x100/0d0d0d/4F8EF7?text=toggle.solutions" alt="toggle.solutions" style="margin-bottom:0.5rem" />
-  <hr class="accent-rule" />
-  <h1 style="color:#e5e5e5; font-size:2.6rem; margin:0;">Case Studies</h1>
-  <p style="color:#888; font-size:1.1rem; margin:0;">Your Digital Growth Partner · B2B</p>
-</div>
+<!-- DECK COVER -->
 
----
-layout: center
-class: text-center
-transition: slide-left
----
-
-<span class="industry-tag">B2B SaaS · Atlassian Marketplace · Performance Marketing</span>
-
-<div class="logo-pair">
-  <img src="https://placehold.co/160x80/0d0d0d/4F8EF7?text=toggle.solutions" alt="toggle.solutions" />
-  <span class="logo-divider">×</span>
-  <img src="https://placehold.co/160x80/1a1a1a/4F8EF7?text=Marvelution" alt="Marvelution" />
-</div>
-
-<p class="project-tagline">
-  Jenkins Integration for Jira — visualizing build data inside Jira for development teams.
-</p>
-
-<div class="stats-row" style="margin-top:2rem">
-  <div class="stat"><div class="stat-value">21x</div><div class="stat-label">ROAS</div></div>
-  <div class="stat"><div class="stat-value">4.1x</div><div class="stat-label">ROI</div></div>
-  <div class="stat"><div class="stat-value">+25.4%</div><div class="stat-label">License Revenue</div></div>
-</div>
-
----
-layout: default
-transition: fade
----
-
-### What we did for Marvelution
-
-Zero paid advertising and plateaued organic growth — Marvelution needed a new acquisition channel. We spotted an open lane: no competitors running paid and an untapped keyword pool.
-
-<ul class="value-props" style="margin:1rem 0">
-  <li>Google Search — captured high-intent demand from Jenkins/Jira searchers</li>
-  <li>Google Display + Video — 1.45M+ impressions retargeting past site and Marketplace visitors</li>
-  <li>Continuous A/B testing across keywords, landing pages, and creatives to scale winners</li>
-</ul>
-
-<div class="stats-row">
-  <div class="stat"><div class="stat-value">+34.4%</div><div class="stat-label">Evaluations</div></div>
-  <div class="stat"><div class="stat-value">87%</div><div class="stat-label">Traffic from Ads</div></div>
-  <div class="stat"><div class="stat-value">6 mo</div><div class="stat-label">to results</div></div>
-</div>
-
----
-layout: center
-class: text-center
-transition: slide-left
----
-
-<span class="industry-tag">B2B SaaS · Atlassian Marketplace · Performance Marketing</span>
-
-<div class="logo-pair">
-  <img src="https://placehold.co/160x80/0d0d0d/4F8EF7?text=toggle.solutions" alt="toggle.solutions" />
-  <span class="logo-divider">×</span>
-  <img src="https://placehold.co/160x80/1a1a1a/4F8EF7?text=Elements" alt="Elements" />
-</div>
-
-<p class="project-tagline">
-  Elements Publish — creates Confluence pages directly from Jira for team knowledge management.
-</p>
-
-<div class="stats-row" style="margin-top:2rem">
-  <div class="stat"><div class="stat-value">−94.6%</div><div class="stat-label">CPA</div></div>
-  <div class="stat"><div class="stat-value">+5,350%</div><div class="stat-label">Conversions</div></div>
-  <div class="stat"><div class="stat-value">+1,000%</div><div class="stat-label">CVR</div></div>
-</div>
-
----
-layout: default
-transition: fade
----
-
-### What we did for Elements
-
-Elements was bidding on their product name — keywords too generic for the real use case. We pivoted to the "knowledge management" keyword group where demand was strong and competitors were absent.
-
-<ul class="value-props" style="margin:1rem 0">
-  <li>Identified untapped keyword group with strong volume and no competitor bids</li>
-  <li>Diagnosed ad-to-landing-page relevance gap driving high early CPA</li>
-  <li>Realigned Marketplace listing content to new keywords — unlocking performance</li>
-</ul>
-
-<div class="stats-row">
-  <div class="stat"><div class="stat-value">3 mo</div><div class="stat-label">to results</div></div>
-  <div class="stat"><div class="stat-value">Zero</div><div class="stat-label">Competitor Bids</div></div>
-</div>
-
----
-layout: center
-class: text-center
-transition: slide-left
----
-
-<span class="industry-tag">Education · Performance Marketing · Creative Production</span>
-
-<div class="logo-pair">
-  <img src="https://placehold.co/160x80/0d0d0d/4F8EF7?text=toggle.solutions" alt="toggle.solutions" />
-  <span class="logo-divider">×</span>
-  <img src="https://placehold.co/160x80/1a1a1a/4F8EF7?text=UNITAR" alt="UNITAR" />
-</div>
-
-<p class="project-tagline">
-  Southeast Asia's first virtual university — QS 5-Star for Online Learning, 98% graduate employment rate.
-</p>
-
-<div class="stats-row" style="margin-top:2rem">
-  <div class="stat"><div class="stat-value">32k+</div><div class="stat-label">Qualified Leads</div></div>
-  <div class="stat"><div class="stat-value">−47%</div><div class="stat-label">CPL YoY</div></div>
-  <div class="stat"><div class="stat-value">77%</div><div class="stat-label">Impression Share</div></div>
-</div>
-
----
-layout: default
-transition: fade
----
-
-### What we did for UNITAR
-
-Rising CPLs across Google, Meta, and TikTok — and inconsistent delivery against aggressive enrollment targets. We built a full-funnel performance engine that scaled past RM11M/month at stable CPLs.
-
-<ul class="value-props" style="margin:1rem 0">
-  <li>Messaging matrix — TOF curiosity, MOF reassurance, BOF urgency mapped to student journey</li>
-  <li>Channel diversification — Google SEM + PMax, Meta lead forms, TikTok awareness</li>
-  <li>Facebook CAPI + layered intent/lookalike audiences + disciplined spend pacing</li>
-</ul>
-
-<div class="stats-row">
-  <div class="stat"><div class="stat-value">RM11M+</div><div class="stat-label">Monthly Spend</div></div>
-  <div class="stat"><div class="stat-value">Jun–Sep 2025</div><div class="stat-label">Campaign Period</div></div>
-</div>
-
----
-layout: center
-class: text-center
-transition: slide-left
----
-
-<span class="industry-tag">Insurance · Singapore · SEO</span>
-
-<div class="logo-pair">
-  <img src="https://placehold.co/160x80/0d0d0d/4F8EF7?text=toggle.solutions" alt="toggle.solutions" />
-  <span class="logo-divider">×</span>
-  <img src="https://placehold.co/160x80/1a1a1a/4F8EF7?text=Singlife" alt="Singlife" />
-</div>
-
-<p class="project-tagline">
-  Leading digital-first insurer in Singapore — life, health, and investment-linked products in a YMYL category.
-</p>
-
-<div class="stats-row" style="margin-top:2rem">
-  <div class="stat"><div class="stat-value">#3 → #1</div><div class="stat-label">Rankings</div></div>
-  <div class="stat"><div class="stat-value">+23%</div><div class="stat-label">Organic Clicks</div></div>
-  <div class="stat"><div class="stat-value">3 mo</div><div class="stat-label">to results</div></div>
-</div>
-
----
-layout: default
-transition: fade
----
-
-### What we did for Singlife
-
-Core keywords stuck at #3 in a regulated YMYL category — competitors out-publishing with long-form authoritative content. We strengthened E-E-A-T signals to meet Google's bar.
-
-<ul class="value-props" style="margin:1rem 0">
-  <li>Intent-aligned content expansion — informational, comparison, and transactional queries</li>
-  <li>E-E-A-T signals — credibility markers, factual accuracy, YMYL-appropriate presentation</li>
-  <li>Structural optimization — H1–H3 hierarchy, internal linking, keyword prominence</li>
-</ul>
-
-<div class="stats-row">
-  <div class="stat"><div class="stat-value">3 mo</div><div class="stat-label">to #1</div></div>
-  <div class="stat"><div class="stat-value">YMYL</div><div class="stat-label">Category Won</div></div>
-</div>
-
----
-layout: center
-class: text-center
-transition: slide-left
----
-
-<span class="industry-tag">Insurance · Singapore · SEO</span>
-
-<div class="logo-pair">
-  <img src="https://placehold.co/160x80/0d0d0d/4F8EF7?text=toggle.solutions" alt="toggle.solutions" />
-  <span class="logo-divider">×</span>
-  <img src="https://placehold.co/160x80/1a1a1a/4F8EF7?text=Great+Eastern" alt="Great Eastern" />
-</div>
-
-<p class="project-tagline">
-  One of the region's leading insurers — life, health, and general products competing hard for organic dominance.
-</p>
-
-<div class="stats-row" style="margin-top:2rem">
-  <div class="stat"><div class="stat-value">#4 → #1</div><div class="stat-label">Rankings</div></div>
-  <div class="stat"><div class="stat-value">+16%</div><div class="stat-label">Organic Clicks</div></div>
-  <div class="stat"><div class="stat-value">2 mo</div><div class="stat-label">to results</div></div>
-</div>
-
----
-layout: default
-transition: fade
----
-
-### What we did for Great Eastern
-
-Rankings stagnant at #4 for high-intent terms like "insurance plan." Meta titles lacked keyword targeting and snippets weren't optimized for CTR. We delivered #1 in two months.
-
-<ul class="value-props" style="margin:1rem 0">
-  <li>Metadata optimization — rewrote title tags and meta descriptions for keyword prominence</li>
-  <li>Keyword–content alignment — strengthened heading hierarchy on priority pages</li>
-  <li>SERP performance — improved semantic coverage on highest commercial-value pages</li>
-</ul>
-
-<div class="stats-row">
-  <div class="stat"><div class="stat-value">2 mo</div><div class="stat-label">to #1</div></div>
-  <div class="stat"><div class="stat-value">Fast</div><div class="stat-label">No Rebuild Needed</div></div>
-</div>
-
----
-layout: center
-class: text-center
-transition: slide-left
----
-
-<span class="industry-tag">Banking · Malaysia · SEO</span>
-
-<div class="logo-pair">
-  <img src="https://placehold.co/160x80/0d0d0d/4F8EF7?text=toggle.solutions" alt="toggle.solutions" />
-  <span class="logo-divider">×</span>
-  <img src="https://placehold.co/160x80/1a1a1a/4F8EF7?text=CIMB+Bank" alt="CIMB Bank" />
-</div>
-
-<p class="project-tagline">
-  One of the region's leading banks — retail banking, cards, loans, wealth, and corporate services.
-</p>
-
-<div class="stats-row" style="margin-top:2rem">
-  <div class="stat"><div class="stat-value">+52.6%</div><div class="stat-label">Impressions</div></div>
-  <div class="stat"><div class="stat-value">+34.5%</div><div class="stat-label">Organic Clicks</div></div>
-  <div class="stat"><div class="stat-value">2× digit</div><div class="stat-label">Rank Gains</div></div>
-</div>
-
----
-layout: default
-transition: fade
----
-
-### What we did for CIMB Bank
-
-Limited keyword depth, weak topical authority, and redundant blog content diluting quality signals — inside a large, slow-moving enterprise with internal approval cycles.
-
-<ul class="value-props" style="margin:1rem 0">
-  <li>Content pruning — audited and consolidated redundant articles to lift quality signals</li>
-  <li>High-intent content — built keyword-focused articles against priority financial topic gaps</li>
-  <li>Topical clusters — internal-linking structure aligned to CIMB's core product pillars</li>
-  <li>Workflow streamlining — faster stakeholder approvals to accelerate publishing velocity</li>
-</ul>
-
-<div class="stats-row">
-  <div class="stat"><div class="stat-value">12 mo</div><div class="stat-label">Engagement</div></div>
-  <div class="stat"><div class="stat-value">Enterprise</div><div class="stat-label">Scale</div></div>
-</div>
-
----
-layout: center
-class: text-center
-transition: slide-left
----
-
-<div class="outro-wrapper">
-  <img src="https://placehold.co/220x100/0d0d0d/4F8EF7?text=toggle.solutions" alt="toggle.solutions" />
-  <hr class="accent-rule" />
-  <p class="outro-tagline">
-    Ready to scale your next<br/>stage of growth?
-  </p>
-  <div class="social-row">
-    <a href="https://toggle.solutions" target="_blank">🌐 toggle.solutions</a>
-    <a href="https://instagram.com/toggle.solutions" target="_blank">📷 Instagram</a>
-    <a href="https://linkedin.com/company/toggle-solutions" target="_blank">💼 LinkedIn</a>
-    <a href="mailto:hello@toggle.solutions">✉️ hello@toggle.solutions</a>
+<div class="flex flex-col items-center gap-5">
+  <span class="inline-block bg-[#4F8EF7]/10 text-[#4F8EF7] border border-[#4F8EF7]/25 rounded-full px-3 py-1 text-[0.65rem] font-semibold tracking-[0.1em] uppercase">Web Development Portfolio</span>
+  <img src="/image/brand/logo-dark.svg" class="w-52" />
+  <p class="text-base text-neutral-400 max-w-lg m-0">Fast, focused digital products for B2B teams.</p>
+  <div class="flex bg-white/[0.03] border border-white/[0.07] rounded-xl mt-4">
+    <div class="flex flex-col items-center gap-0.5 px-8 py-4">
+      <span class="text-[2rem] font-bold text-[#4F8EF7] leading-none">10+</span>
+      <span class="text-[0.65rem] text-neutral-600 uppercase tracking-[0.08em] mt-1">Clients</span>
+    </div>
+    <div class="w-px bg-white/[0.07] self-stretch"></div>
+    <div class="flex flex-col items-center gap-0.5 px-8 py-4">
+      <span class="text-[2rem] font-bold text-[#4F8EF7] leading-none">20+</span>
+      <span class="text-[0.65rem] text-neutral-600 uppercase tracking-[0.08em] mt-1">Projects</span>
+    </div>
+    <div class="w-px bg-white/[0.07] self-stretch"></div>
+    <div class="flex flex-col items-center gap-0.5 px-8 py-4">
+      <span class="text-[2rem] font-bold text-[#4F8EF7] leading-none">3+</span>
+      <span class="text-[0.65rem] text-neutral-600 uppercase tracking-[0.08em] mt-1">Years</span>
+    </div>
   </div>
+</div>
+
+---
+layout: default
+class: p-0
+---
+
+<!-- SOURCEFLOW — HERO -->
+
+<div class="grid grid-cols-[44%_56%] h-full w-full">
+  <div class="flex flex-col justify-center gap-4 py-12 pl-12 pr-8">
+    <span class="inline-block bg-[#4F8EF7]/10 text-[#4F8EF7] border border-[#4F8EF7]/25 rounded-full px-3 py-1 text-[0.65rem] font-semibold tracking-[0.1em] uppercase w-fit">B2B SaaS / Talent Acquisition</span>
+    <h1 class="text-[2.6rem] font-bold text-white leading-[1.05] m-0 tracking-tight">Sourceflow</h1>
+    <p class="text-[0.85rem] text-neutral-300 leading-relaxed m-0">Sourceflow's recruitment client needed a site built around a live job portal — branded, integrated, and ready. We shipped it in two weeks.</p>
+    <div class="flex gap-0">
+      <div class="flex flex-col gap-0.5 pr-6 mr-6 border-r border-white/[0.07]">
+        <span class="text-[1.8rem] font-bold text-[#4F8EF7] leading-none">2 wk</span>
+        <span class="text-[0.62rem] text-neutral-600 uppercase tracking-[0.08em] mt-1">Delivery</span>
+      </div>
+      <div class="flex flex-col gap-0.5 pr-6 mr-6 border-r border-white/[0.07]">
+        <span class="text-[1.8rem] font-bold text-[#4F8EF7] leading-none">4</span>
+        <span class="text-[0.62rem] text-neutral-600 uppercase tracking-[0.08em] mt-1">Integrations</span>
+      </div>
+      <div class="flex flex-col gap-0.5">
+        <span class="text-[1.8rem] font-bold text-[#4F8EF7] leading-none">Live</span>
+        <span class="text-[0.62rem] text-neutral-600 uppercase tracking-[0.08em] mt-1">Job Portal</span>
+      </div>
+    </div>
+    <div class="flex items-center gap-1.5 flex-wrap">
+      <span class="text-[0.62rem] font-bold text-neutral-700 uppercase tracking-[0.08em] mr-1">Stack</span>
+      <span class="bg-white/[0.04] border border-white/[0.08] rounded px-2 py-0.5 text-[0.65rem] text-neutral-300">React</span>
+      <span class="bg-white/[0.04] border border-white/[0.08] rounded px-2 py-0.5 text-[0.65rem] text-neutral-300">Tailwind CSS</span>
+    </div>
+  </div>
+  <div class="flex items-center justify-center py-8 pr-10 pl-6 bg-white/[0.01] border-l border-white/[0.05]">
+    <img src="/image/screenshots/hp-cover.png" class="w-full block" />
+  </div>
+</div>
+
+---
+layout: default
+class: p-0
+---
+
+<!-- SOURCEFLOW — DETAIL -->
+
+<div class="grid grid-cols-[46%_54%] h-full w-full">
+  <div class="flex flex-col gap-2.5 py-5 pl-12 pr-7 overflow-hidden">
+    <div class="flex flex-col gap-1">
+      <span class="inline-block bg-[#4F8EF7]/10 text-[#4F8EF7] border border-[#4F8EF7]/25 rounded-full px-3 py-1 text-[0.65rem] font-semibold tracking-[0.1em] uppercase w-fit">Sourceflow</span>
+      <h2 class="text-[1.4rem] font-bold text-[#4F8EF7] m-0 leading-[1.1]">What we built</h2>
+    </div>
+    <div class="flex flex-col gap-1">
+      <p class="text-[0.62rem] font-bold text-[#4F8EF7] uppercase tracking-[0.1em] m-0">The challenge</p>
+      <p class="text-[0.8rem] text-neutral-300 leading-relaxed m-0">Zero existing site. No brand implementation. Sourceflow's recruitment client needed a live job portal, a blog, and lead capture forms — all branded and ready — with two weeks on the clock.</p>
+    </div>
+    <div class="flex flex-col gap-1">
+      <p class="text-[0.62rem] font-bold text-[#4F8EF7] uppercase tracking-[0.1em] m-0">Our solution</p>
+      <p class="text-[0.8rem] text-neutral-300 leading-relaxed m-0">We built the full site on React and Tailwind CSS — job portal integration, blog, lead forms, and custom brand components. Shipped in 14 days.</p>
+    </div>
+    <div class="border-l-2 border-[#4F8EF7]/40 pl-3.5 mt-auto flex flex-col gap-1">
+      <p class="text-[0.62rem] text-neutral-700 m-0">— Jasmine Boler, Project Manager at Sourceflow</p>
+    </div>
+  </div>
+  <div class="flex flex-col justify-center py-5 pr-10 pl-5 bg-white/[0.01] border-l border-white/[0.05]">
+    <div class="bg-[#161616] rounded-lg border border-white/[0.09] overflow-hidden shadow-lg flex flex-col">
+      <div class="h-7 bg-[#1f1f1f] flex items-center px-3 gap-1.5 border-b border-white/5 shrink-0">
+        <span class="w-2.5 h-2.5 rounded-full bg-[#ff5f57] shrink-0"></span>
+        <span class="w-2.5 h-2.5 rounded-full bg-[#febc2e] shrink-0"></span>
+        <span class="w-2.5 h-2.5 rounded-full bg-[#28c840] shrink-0"></span>
+        <span class="h-3.5 bg-white/5 rounded flex-1 max-w-[60%] mx-auto text-[0.55rem] text-neutral-600 flex items-center justify-center px-2">sourceflow-client.com/jobs</span>
+      </div>
+      <img :src="'/image/screenshots/sourceflow/page2.png'" class="w-full object-fit object-top" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" />
+      <div class="h-64 bg-white/[0.02] flex items-center justify-center text-neutral-800 text-xs hidden">Job portal screenshot</div>
+    </div>
+  </div>
+</div>
+
+---
+layout: default
+class: p-0
+---
+
+<!-- SOURCEFLOW — PAGES -->
+
+<div class="flex flex-col gap-1 px-6 py-1 h-full">
+  <div class="flex items-center gap-3 shrink-0">
+    <span class="inline-block bg-[#4F8EF7]/10 text-[#4F8EF7] border border-[#4F8EF7]/25 rounded-full px-3 py-1 text-[0.62rem] font-semibold tracking-[0.1em] uppercase whitespace-nowrap">Sourceflow</span>
+    <h2 class="text-[1.2rem] font-bold text-[#4F8EF7] m-0">Page-by-page</h2>
+    <p class="text-[0.72rem] text-neutral-600 m-0 ml-auto">All key pages delivered for the client site</p>
+  </div>
+  <div class="grid grid-cols-3 grid-rows-2 gap-2 flex-1 min-h-0">
+    <div class="flex flex-col gap-0.5 min-h-0">
+      <div class="flex-1 min-h-0 bg-[#161616] rounded-md border border-white/[0.08] overflow-hidden shadow flex flex-col">
+        <div class="h-5 bg-[#1f1f1f] flex items-center px-2 gap-1 border-b border-white/5 shrink-0">
+          <span class="w-1.5 h-1.5 rounded-full bg-[#ff5f57]"></span><span class="w-1.5 h-1.5 rounded-full bg-[#febc2e]"></span><span class="w-1.5 h-1.5 rounded-full bg-[#28c840]"></span>
+          <span class="h-3 bg-white/5 rounded flex-1 max-w-[55%] mx-auto text-[0.5rem] text-neutral-700 flex items-center justify-center px-1.5">hunterphilips.com</span>
+        </div>
+        <img :src="'/image/screenshots/sourceflow/page1.png'" class="w-full flex-1 object-cover object-top min-h-0" />
+      </div>
+    </div>
+    <div class="flex flex-col gap-0.5 min-h-0">
+      <div class="flex-1 min-h-0 bg-[#161616] rounded-md border border-white/[0.08] overflow-hidden shadow flex flex-col">
+        <div class="h-5 bg-[#1f1f1f] flex items-center px-2 gap-1 border-b border-white/5 shrink-0">
+          <span class="w-1.5 h-1.5 rounded-full bg-[#ff5f57]"></span><span class="w-1.5 h-1.5 rounded-full bg-[#febc2e]"></span><span class="w-1.5 h-1.5 rounded-full bg-[#28c840]"></span>
+          <span class="h-3 bg-white/5 rounded flex-1 max-w-[55%] mx-auto text-[0.5rem] text-neutral-700 flex items-center justify-center px-1.5">/job/</span>
+        </div>
+        <img :src="'/image/screenshots/sourceflow/page2.png'" class="w-full flex-1 object-cover object-top min-h-0" />
+      </div>
+    </div>
+    <div class="flex flex-col gap-0.5 min-h-0">
+      <div class="flex-1 min-h-0 bg-[#161616] rounded-md border border-white/[0.08] overflow-hidden shadow flex flex-col">
+        <div class="h-5 bg-[#1f1f1f] flex items-center px-2 gap-1 border-b border-white/5 shrink-0">
+          <span class="w-1.5 h-1.5 rounded-full bg-[#ff5f57]"></span><span class="w-1.5 h-1.5 rounded-full bg-[#febc2e]"></span><span class="w-1.5 h-1.5 rounded-full bg-[#28c840]"></span>
+          <span class="h-3 bg-white/5 rounded flex-1 max-w-[55%] mx-auto text-[0.5rem] text-neutral-700 flex items-center justify-center px-1.5">/sector/</span>
+        </div>
+        <img :src="'/image/screenshots/sourceflow/page3.png'" class="w-full flex-1 object-cover object-top min-h-0" />
+      </div>
+    </div>
+    <div class="flex flex-col gap-0.5 min-h-0">
+      <div class="flex-1 min-h-0 bg-[#161616] rounded-md border border-white/[0.08] overflow-hidden shadow flex flex-col">
+        <div class="h-5 bg-[#1f1f1f] flex items-center px-2 gap-1 border-b border-white/5 shrink-0">
+          <span class="w-1.5 h-1.5 rounded-full bg-[#ff5f57]"></span><span class="w-1.5 h-1.5 rounded-full bg-[#febc2e]"></span><span class="w-1.5 h-1.5 rounded-full bg-[#28c840]"></span>
+          <span class="h-3 bg-white/5 rounded flex-1 max-w-[55%] mx-auto text-[0.5rem] text-neutral-700 flex items-center justify-center px-1.5">/insights/</span>
+        </div>
+        <img :src="'/image/screenshots/sourceflow/page4.png'" class="w-full flex-1 object-cover object-top min-h-0" />
+      </div>
+    </div>
+    <div class="flex flex-col gap-0.5 min-h-0">
+      <div class="flex-1 min-h-0 bg-[#161616] rounded-md border border-white/[0.08] overflow-hidden shadow flex flex-col">
+        <div class="h-5 bg-[#1f1f1f] flex items-center px-2 gap-1 border-b border-white/5 shrink-0">
+          <span class="w-1.5 h-1.5 rounded-full bg-[#ff5f57]"></span><span class="w-1.5 h-1.5 rounded-full bg-[#febc2e]"></span><span class="w-1.5 h-1.5 rounded-full bg-[#28c840]"></span>
+          <span class="h-3 bg-white/5 rounded flex-1 max-w-[55%] mx-auto text-[0.5rem] text-neutral-700 flex items-center justify-center px-1.5">/about-us/</span>
+        </div>
+        <img :src="'/image/screenshots/sourceflow/page5.png'" class="w-full flex-1 object-cover object-top min-h-0" />
+      </div>
+    </div>
+    <div class="flex flex-col gap-0.5 min-h-0">
+      <div class="flex-1 min-h-0 bg-[#161616] rounded-md border border-white/[0.08] overflow-hidden shadow flex flex-col">
+        <div class="h-5 bg-[#1f1f1f] flex items-center px-2 gap-1 border-b border-white/5 shrink-0">
+          <span class="w-1.5 h-1.5 rounded-full bg-[#ff5f57]"></span><span class="w-1.5 h-1.5 rounded-full bg-[#febc2e]"></span><span class="w-1.5 h-1.5 rounded-full bg-[#28c840]"></span>
+          <span class="h-3 bg-white/5 rounded flex-1 max-w-[55%] mx-auto text-[0.5rem] text-neutral-700 flex items-center justify-center px-1.5">/contact-us/</span>
+        </div>
+        <img :src="'/image/screenshots/sourceflow/page6.png'" class="w-full flex-1 object-cover object-top min-h-0" />
+      </div>
+    </div>
+  </div>
+</div>
+
+---
+layout: default
+class: p-0
+---
+
+<!-- AERO GLOBAL FUELS — HERO -->
+
+<div class="grid grid-cols-[44%_56%] h-full w-full">
+  <div class="flex flex-col justify-center gap-4 py-12 pl-12 pr-8">
+    <span class="inline-block bg-[#4F8EF7]/10 text-[#4F8EF7] border border-[#4F8EF7]/25 rounded-full px-3 py-1 text-[0.65rem] font-semibold tracking-[0.1em] uppercase w-fit">Aerospace</span>
+    <h1 class="text-[2.6rem] font-bold text-white leading-[1.05] m-0 tracking-tight">Aero Global Fuels</h1>
+    <p class="text-[0.85rem] text-neutral-300 leading-relaxed m-0">Malaysia's jet fuel supplier to private, commercial, and government aircraft. Their website was losing them clients — broken links, dead contact forms, no way to reach the team. We rebuilt it.</p>
+    <div class="flex gap-0">
+      <div class="flex flex-col gap-0.5 pr-6 mr-6 border-r border-white/[0.07]">
+        <span class="text-[1.8rem] font-bold text-[#4F8EF7] leading-none">Full</span>
+        <span class="text-[0.62rem] text-neutral-600 uppercase tracking-[0.08em] mt-1">Redesign</span>
+      </div>
+      <div class="flex flex-col gap-0.5 pr-6 mr-6 border-r border-white/[0.07]">
+        <span class="text-[1.8rem] font-bold text-[#4F8EF7] leading-none">0</span>
+        <span class="text-[0.62rem] text-neutral-600 uppercase tracking-[0.08em] mt-1">Broken Links</span>
+      </div>
+      <div class="flex flex-col gap-0.5">
+        <span class="text-[1.8rem] font-bold text-[#4F8EF7] leading-none">100%</span>
+        <span class="text-[0.62rem] text-neutral-600 uppercase tracking-[0.08em] mt-1">Form Delivery</span>
+      </div>
+    </div>
+    <div class="flex items-center gap-1.5 flex-wrap">
+      <span class="text-[0.62rem] font-bold text-neutral-700 uppercase tracking-[0.08em] mr-1">Stack</span>
+      <span class="bg-white/[0.04] border border-white/[0.08] rounded px-2 py-0.5 text-[0.65rem] text-neutral-300">WordPress</span>
+    </div>
+  </div>
+  <div class="flex items-center justify-center py-8 pr-10 pl-6 bg-white/[0.01] border-l border-white/[0.05]">
+    <div class="w-full bg-[#161616] rounded-lg border border-white/10 overflow-hidden shadow-[0_20px_60px_rgba(0,0,0,0.6)]">
+      <div class="h-7 bg-[#1f1f1f] flex items-center px-3 gap-1.5 border-b border-white/5">
+        <span class="w-2.5 h-2.5 rounded-full bg-[#ff5f57] shrink-0"></span>
+        <span class="w-2.5 h-2.5 rounded-full bg-[#febc2e] shrink-0"></span>
+        <span class="w-2.5 h-2.5 rounded-full bg-[#28c840] shrink-0"></span>
+        <span class="h-3.5 bg-white/5 rounded flex-1 max-w-[60%] mx-auto text-[0.55rem] text-neutral-600 flex items-center justify-center px-2">aeroglobalfuels.com</span>
+      </div>
+      <img :src="'/image/clients/aeroglobal-hero.png'" class="w-full block aspect-video object-cover object-top" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" />
+      <div class="w-full aspect-video bg-white/[0.02] items-center justify-center text-neutral-800 text-xs hidden">Homepage screenshot</div>
+    </div>
+  </div>
+</div>
+
+---
+layout: default
+class: p-0
+---
+
+<!-- AERO GLOBAL FUELS — DETAIL -->
+
+<div class="grid grid-cols-[46%_54%] h-full w-full">
+  <div class="flex flex-col gap-2.5 py-5 pl-12 pr-7 overflow-hidden">
+    <div class="flex flex-col gap-1">
+      <span class="inline-block bg-[#4F8EF7]/10 text-[#4F8EF7] border border-[#4F8EF7]/25 rounded-full px-3 py-1 text-[0.65rem] font-semibold tracking-[0.1em] uppercase w-fit">Aero Global Fuels</span>
+      <h2 class="text-[1.4rem] font-bold text-[#4F8EF7] m-0 leading-[1.1]">What we built</h2>
+    </div>
+    <div class="flex flex-col gap-1">
+      <p class="text-[0.62rem] font-bold text-[#4F8EF7] uppercase tracking-[0.1em] m-0">The challenge</p>
+      <p class="text-[0.8rem] text-neutral-300 leading-relaxed m-0">The site was years out of date and costing them business. Broken links sent visitors nowhere. Contact forms didn't deliver to their inbox. Potential clients arrived and left with no way to reach the team.</p>
+    </div>
+    <div class="flex flex-col gap-1">
+      <p class="text-[0.62rem] font-bold text-[#4F8EF7] uppercase tracking-[0.1em] m-0">Our solution</p>
+      <p class="text-[0.8rem] text-neutral-300 leading-relaxed m-0">We redesigned and rebuilt the full site on WordPress. Fixed every broken link. Wired up and tested all lead capture forms. Custom page designs now present their credentials, fleet capabilities, and portfolio clearly — with ongoing support post-launch.</p>
+    </div>
+  </div>
+  <div class="flex flex-col gap-2.5 py-5 pr-10 pl-5 bg-white/[0.01] border-l border-white/[0.05]">
+    <div class="flex-1 min-h-0 bg-[#161616] rounded-lg border border-white/[0.09] overflow-hidden shadow-lg flex flex-col">
+      <div class="h-7 bg-[#1f1f1f] flex items-center px-3 gap-1.5 border-b border-white/5 shrink-0">
+        <span class="w-2.5 h-2.5 rounded-full bg-[#ff5f57] shrink-0"></span>
+        <span class="w-2.5 h-2.5 rounded-full bg-[#febc2e] shrink-0"></span>
+        <span class="w-2.5 h-2.5 rounded-full bg-[#28c840] shrink-0"></span>
+        <span class="h-3.5 bg-white/5 rounded flex-1 max-w-[60%] mx-auto text-[0.55rem] text-neutral-600 flex items-center justify-center px-2">aeroglobalfuels.com/services</span>
+      </div>
+      <img :src="'/image/screenshots/aeroglobal/page2.png'" class="w-full flex-1 object-cover object-top" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" />
+      <div class="flex-1 bg-white/[0.02] items-center justify-center text-neutral-800 text-xs hidden">Services screenshot</div>
+    </div>
+    <div class="flex gap-2.5 shrink-0">
+      <div class="flex-1 bg-[#161616] rounded-lg border border-white/[0.09] overflow-hidden shadow">
+        <div class="h-5 bg-[#1f1f1f] flex items-center px-2 gap-1 border-b border-white/5">
+          <span class="w-1.5 h-1.5 rounded-full bg-[#ff5f57] shrink-0"></span>
+          <span class="w-1.5 h-1.5 rounded-full bg-[#febc2e] shrink-0"></span>
+          <span class="w-1.5 h-1.5 rounded-full bg-[#28c840] shrink-0"></span>
+        </div>
+        <img :src="'/image/clients/aeroglobal-about.png'" class="w-full h-20 object-cover object-top" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" />
+        <div class="h-20 bg-white/[0.02] items-center justify-center text-neutral-800 text-xs hidden">About</div>
+      </div>
+      <div class="flex-1 bg-[#161616] rounded-lg border border-white/[0.09] overflow-hidden shadow">
+        <div class="h-5 bg-[#1f1f1f] flex items-center px-2 gap-1 border-b border-white/5">
+          <span class="w-1.5 h-1.5 rounded-full bg-[#ff5f57] shrink-0"></span>
+          <span class="w-1.5 h-1.5 rounded-full bg-[#febc2e] shrink-0"></span>
+          <span class="w-1.5 h-1.5 rounded-full bg-[#28c840] shrink-0"></span>
+        </div>
+        <img :src="'/image/clients/aeroglobal-contact.png'" class="w-full h-20 object-cover object-top" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" />
+        <div class="h-20 bg-white/[0.02] items-center justify-center text-neutral-800 text-xs hidden">Contact</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+---
+layout: default
+class: p-0
+---
+
+<!-- AERO GLOBAL FUELS — PAGES -->
+
+<div class="flex flex-col gap-1 px-6 py-1 h-full">
+  <div class="flex items-center gap-3 shrink-0">
+    <span class="inline-block bg-[#4F8EF7]/10 text-[#4F8EF7] border border-[#4F8EF7]/25 rounded-full px-3 py-1 text-[0.62rem] font-semibold tracking-[0.1em] uppercase whitespace-nowrap">Aero Global Fuels</span>
+    <h2 class="text-[1.2rem] font-bold text-[#4F8EF7] m-0">Page-by-page</h2>
+    <p class="text-[0.72rem] text-neutral-600 m-0 ml-auto">All key pages delivered for the redesigned site</p>
+  </div>
+  <div class="grid grid-cols-3 grid-rows-2 gap-2 flex-1 min-h-0">
+    <div class="flex flex-col gap-0.5 min-h-0">
+      <div class="flex-1 min-h-0 bg-[#161616] rounded-md border border-white/[0.08] overflow-hidden shadow flex flex-col">
+        <div class="h-5 bg-[#1f1f1f] flex items-center px-2 gap-1 border-b border-white/5 shrink-0">
+          <span class="w-1.5 h-1.5 rounded-full bg-[#ff5f57]"></span><span class="w-1.5 h-1.5 rounded-full bg-[#febc2e]"></span><span class="w-1.5 h-1.5 rounded-full bg-[#28c840]"></span>
+          <span class="h-3 bg-white/5 rounded flex-1 max-w-[55%] mx-auto text-[0.5rem] text-neutral-700 flex items-center justify-center px-1.5">agfuels.com.my</span>
+        </div>
+        <img :src="'/image/screenshots/aeroglobal/page1.png'" class="w-full flex-1 object-cover object-top min-h-0" />
+      </div>
+    </div>
+    <div class="flex flex-col gap-0.5 min-h-0">
+      <div class="flex-1 min-h-0 bg-[#161616] rounded-md border border-white/[0.08] overflow-hidden shadow flex flex-col">
+        <div class="h-5 bg-[#1f1f1f] flex items-center px-2 gap-1 border-b border-white/5 shrink-0">
+          <span class="w-1.5 h-1.5 rounded-full bg-[#ff5f57]"></span><span class="w-1.5 h-1.5 rounded-full bg-[#febc2e]"></span><span class="w-1.5 h-1.5 rounded-full bg-[#28c840]"></span>
+          <span class="h-3 bg-white/5 rounded flex-1 max-w-[55%] mx-auto text-[0.5rem] text-neutral-700 flex items-center justify-center px-1.5">/services/</span>
+        </div>
+        <img :src="'/image/screenshots/aeroglobal/page2.png'" class="w-full flex-1 object-cover object-top min-h-0" />
+      </div>
+    </div>
+    <div class="flex flex-col gap-0.5 min-h-0">
+      <div class="flex-1 min-h-0 bg-[#161616] rounded-md border border-white/[0.08] overflow-hidden shadow flex flex-col">
+        <div class="h-5 bg-[#1f1f1f] flex items-center px-2 gap-1 border-b border-white/5 shrink-0">
+          <span class="w-1.5 h-1.5 rounded-full bg-[#ff5f57]"></span><span class="w-1.5 h-1.5 rounded-full bg-[#febc2e]"></span><span class="w-1.5 h-1.5 rounded-full bg-[#28c840]"></span>
+          <span class="h-3 bg-white/5 rounded flex-1 max-w-[55%] mx-auto text-[0.5rem] text-neutral-700 flex items-center justify-center px-1.5">/about/</span>
+        </div>
+        <img :src="'/image/screenshots/aeroglobal/page3.png'" class="w-full flex-1 object-cover object-top min-h-0" />
+      </div>
+    </div>
+    <div class="flex flex-col gap-0.5 min-h-0">
+      <div class="flex-1 min-h-0 bg-[#161616] rounded-md border border-white/[0.08] overflow-hidden shadow flex flex-col">
+        <div class="h-5 bg-[#1f1f1f] flex items-center px-2 gap-1 border-b border-white/5 shrink-0">
+          <span class="w-1.5 h-1.5 rounded-full bg-[#ff5f57]"></span><span class="w-1.5 h-1.5 rounded-full bg-[#febc2e]"></span><span class="w-1.5 h-1.5 rounded-full bg-[#28c840]"></span>
+          <span class="h-3 bg-white/5 rounded flex-1 max-w-[55%] mx-auto text-[0.5rem] text-neutral-700 flex items-center justify-center px-1.5">/approvals/</span>
+        </div>
+        <img :src="'/image/screenshots/aeroglobal/page4.png'" class="w-full flex-1 object-cover object-top min-h-0" />
+      </div>
+    </div>
+    <div class="flex flex-col gap-0.5 min-h-0">
+      <div class="flex-1 min-h-0 bg-[#161616] rounded-md border border-white/[0.08] overflow-hidden shadow flex flex-col">
+        <div class="h-5 bg-[#1f1f1f] flex items-center px-2 gap-1 border-b border-white/5 shrink-0">
+          <span class="w-1.5 h-1.5 rounded-full bg-[#ff5f57]"></span><span class="w-1.5 h-1.5 rounded-full bg-[#febc2e]"></span><span class="w-1.5 h-1.5 rounded-full bg-[#28c840]"></span>
+          <span class="h-3 bg-white/5 rounded flex-1 max-w-[55%] mx-auto text-[0.5rem] text-neutral-700 flex items-center justify-center px-1.5">/#safety</span>
+        </div>
+        <img :src="'/image/screenshots/aeroglobal/page5.png'" class="w-full flex-1 object-cover object-top min-h-0" />
+      </div>
+    </div>
+    <div class="flex flex-col gap-0.5 min-h-0">
+      <div class="flex-1 min-h-0 bg-[#161616] rounded-md border border-white/[0.08] overflow-hidden shadow flex flex-col">
+        <div class="h-5 bg-[#1f1f1f] flex items-center px-2 gap-1 border-b border-white/5 shrink-0">
+          <span class="w-1.5 h-1.5 rounded-full bg-[#ff5f57]"></span><span class="w-1.5 h-1.5 rounded-full bg-[#febc2e]"></span><span class="w-1.5 h-1.5 rounded-full bg-[#28c840]"></span>
+          <span class="h-3 bg-white/5 rounded flex-1 max-w-[55%] mx-auto text-[0.5rem] text-neutral-700 flex items-center justify-center px-1.5">/contact/</span>
+        </div>
+        <img :src="'/image/screenshots/aeroglobal/page6.png'" class="w-full flex-1 object-cover object-top min-h-0" />
+      </div>
+    </div>
+  </div>
+</div>
+
+---
+layout: default
+class: p-0
+---
+
+<!-- AWAM — HERO -->
+
+<div class="grid grid-cols-[44%_56%] h-full w-full">
+  <div class="flex flex-col justify-center gap-4 py-12 pl-12 pr-8">
+    <span class="inline-block bg-[#4F8EF7]/10 text-[#4F8EF7] border border-[#4F8EF7]/25 rounded-full px-3 py-1 text-[0.65rem] font-semibold tracking-[0.1em] uppercase w-fit">Non-Profit / NGO</span>
+    <h1 class="text-[2.6rem] font-bold text-white leading-[1.05] m-0 tracking-tight">AWAM</h1>
+    <p class="text-[0.85rem] text-neutral-300 leading-relaxed m-0">AWAM runs women's rights advocacy, a 24-hour helpline, and public education programmes across Malaysia. Their website wasn't keeping pace. We rebuilt it from the ground up.</p>
+    <div class="flex gap-0">
+      <div class="flex flex-col gap-0.5 pr-6 mr-6 border-r border-white/[0.07]">
+        <span class="text-[1.8rem] font-bold text-[#4F8EF7] leading-none">Full</span>
+        <span class="text-[0.62rem] text-neutral-600 uppercase tracking-[0.08em] mt-1">Rebuild</span>
+      </div>
+      <div class="flex flex-col gap-0.5 pr-6 mr-6 border-r border-white/[0.07]">
+        <span class="text-[1.8rem] font-bold text-[#4F8EF7] leading-none">4</span>
+        <span class="text-[0.62rem] text-neutral-600 uppercase tracking-[0.08em] mt-1">New Features</span>
+      </div>
+      <div class="flex flex-col gap-0.5">
+        <span class="text-[1.8rem] font-bold text-[#4F8EF7] leading-none">0</span>
+        <span class="text-[0.62rem] text-neutral-600 uppercase tracking-[0.08em] mt-1">Failed Forms</span>
+      </div>
+    </div>
+    <div class="flex items-center gap-1.5 flex-wrap">
+      <span class="text-[0.62rem] font-bold text-neutral-700 uppercase tracking-[0.08em] mr-1">Stack</span>
+      <span class="bg-white/[0.04] border border-white/[0.08] rounded px-2 py-0.5 text-[0.65rem] text-neutral-300">WordPress</span>
+    </div>
+  </div>
+  <div class="flex items-center justify-center py-8 pr-10 pl-6 bg-white/[0.01] border-l border-white/[0.05]">
+    <div class="w-full bg-[#161616] rounded-lg border border-white/10 overflow-hidden shadow-[0_20px_60px_rgba(0,0,0,0.6)]">
+      <div class="h-7 bg-[#1f1f1f] flex items-center px-3 gap-1.5 border-b border-white/5">
+        <span class="w-2.5 h-2.5 rounded-full bg-[#ff5f57] shrink-0"></span>
+        <span class="w-2.5 h-2.5 rounded-full bg-[#febc2e] shrink-0"></span>
+        <span class="w-2.5 h-2.5 rounded-full bg-[#28c840] shrink-0"></span>
+        <span class="h-3.5 bg-white/5 rounded flex-1 max-w-[60%] mx-auto text-[0.55rem] text-neutral-600 flex items-center justify-center px-2">awam.org.my</span>
+      </div>
+      <img :src="'/image/clients/awam-hero.png'" class="w-full block aspect-video object-cover object-top" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" />
+      <div class="w-full aspect-video bg-white/[0.02] items-center justify-center text-neutral-800 text-xs hidden">Homepage screenshot</div>
+    </div>
+  </div>
+</div>
+
+---
+layout: default
+class: p-0
+---
+
+<!-- AWAM — DETAIL -->
+
+<div class="grid grid-cols-[46%_54%] h-full w-full">
+  <div class="flex flex-col gap-2.5 py-5 pl-12 pr-7 overflow-hidden">
+    <div class="flex flex-col gap-1">
+      <span class="inline-block bg-[#4F8EF7]/10 text-[#4F8EF7] border border-[#4F8EF7]/25 rounded-full px-3 py-1 text-[0.65rem] font-semibold tracking-[0.1em] uppercase w-fit">AWAM</span>
+      <h2 class="text-[1.4rem] font-bold text-[#4F8EF7] m-0 leading-[1.1]">What we built</h2>
+    </div>
+    <div class="flex flex-col gap-1">
+      <p class="text-[0.62rem] font-bold text-[#4F8EF7] uppercase tracking-[0.1em] m-0">The challenge</p>
+      <p class="text-[0.8rem] text-neutral-300 leading-relaxed m-0">Their site looked dated and didn't reflect the scale of their work. Broken links frustrated visitors. Enquiry forms weren't delivering — supporters and press contacts were falling through with no response.</p>
+    </div>
+    <div class="flex flex-col gap-1">
+      <p class="text-[0.62rem] font-bold text-[#4F8EF7] uppercase tracking-[0.1em] m-0">Our solution</p>
+      <p class="text-[0.8rem] text-neutral-300 leading-relaxed m-0">We rebuilt the full site on WordPress from the ground up. Fixed every broken link and contact form. Each section — campaigns, training, the Telenita helpline — now has a clear, modern page. Ongoing support included after launch.</p>
+    </div>
+  </div>
+  <div class="flex flex-col gap-2.5 py-5 pr-10 pl-5 bg-white/[0.01] border-l border-white/[0.05]">
+    <div class="flex-1 min-h-0 bg-[#161616] rounded-lg border border-white/[0.09] overflow-hidden shadow-lg flex flex-col">
+      <div class="h-7 bg-[#1f1f1f] flex items-center px-3 gap-1.5 border-b border-white/5 shrink-0">
+        <span class="w-2.5 h-2.5 rounded-full bg-[#ff5f57] shrink-0"></span>
+        <span class="w-2.5 h-2.5 rounded-full bg-[#febc2e] shrink-0"></span>
+        <span class="w-2.5 h-2.5 rounded-full bg-[#28c840] shrink-0"></span>
+        <span class="h-3.5 bg-white/5 rounded flex-1 max-w-[60%] mx-auto text-[0.55rem] text-neutral-600 flex items-center justify-center px-2">awam.org.my/our-work</span>
+      </div>
+      <img :src="'/image/screenshots/awam/page3.png'" class="w-full flex-1 object-cover object-top" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" />
+      <div class="flex-1 bg-white/[0.02] items-center justify-center text-neutral-800 text-xs hidden">Our work screenshot</div>
+    </div>
+    <div class="flex gap-2.5 shrink-0">
+      <div class="flex-1 bg-[#161616] rounded-lg border border-white/[0.09] overflow-hidden shadow">
+        <div class="h-5 bg-[#1f1f1f] flex items-center px-2 gap-1 border-b border-white/5">
+          <span class="w-1.5 h-1.5 rounded-full bg-[#ff5f57] shrink-0"></span>
+          <span class="w-1.5 h-1.5 rounded-full bg-[#febc2e] shrink-0"></span>
+          <span class="w-1.5 h-1.5 rounded-full bg-[#28c840] shrink-0"></span>
+        </div>
+        <img :src="'/image/clients/awam-reports.png'" class="w-full h-20 object-cover object-top" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" />
+        <div class="h-20 bg-white/[0.02] items-center justify-center text-neutral-800 text-xs hidden">Annual reports</div>
+      </div>
+      <div class="flex-1 bg-[#161616] rounded-lg border border-white/[0.09] overflow-hidden shadow">
+        <div class="h-5 bg-[#1f1f1f] flex items-center px-2 gap-1 border-b border-white/5">
+          <span class="w-1.5 h-1.5 rounded-full bg-[#ff5f57] shrink-0"></span>
+          <span class="w-1.5 h-1.5 rounded-full bg-[#febc2e] shrink-0"></span>
+          <span class="w-1.5 h-1.5 rounded-full bg-[#28c840] shrink-0"></span>
+        </div>
+        <img :src="'/image/clients/awam-blog.png'" class="w-full h-20 object-cover object-top" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" />
+        <div class="h-20 bg-white/[0.02] items-center justify-center text-neutral-800 text-xs hidden">Blog</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+---
+layout: default
+class: p-0
+---
+
+<!-- AWAM — PAGES -->
+
+<div class="flex flex-col gap-1 px-6 py-1 h-full">
+  <div class="flex items-center gap-3 shrink-0">
+    <span class="inline-block bg-[#4F8EF7]/10 text-[#4F8EF7] border border-[#4F8EF7]/25 rounded-full px-3 py-1 text-[0.62rem] font-semibold tracking-[0.1em] uppercase whitespace-nowrap">AWAM</span>
+    <h2 class="text-[1.2rem] font-bold text-[#4F8EF7] m-0">Page-by-page</h2>
+    <p class="text-[0.72rem] text-neutral-600 m-0 ml-auto">All key pages delivered for the rebuilt site</p>
+  </div>
+  <div class="grid grid-cols-3 grid-rows-2 gap-2 flex-1 min-h-0">
+    <div class="flex flex-col gap-0.5 min-h-0">
+      <div class="flex-1 min-h-0 bg-[#161616] rounded-md border border-white/[0.08] overflow-hidden shadow flex flex-col">
+        <div class="h-5 bg-[#1f1f1f] flex items-center px-2 gap-1 border-b border-white/5 shrink-0">
+          <span class="w-1.5 h-1.5 rounded-full bg-[#ff5f57]"></span><span class="w-1.5 h-1.5 rounded-full bg-[#febc2e]"></span><span class="w-1.5 h-1.5 rounded-full bg-[#28c840]"></span>
+          <span class="h-3 bg-white/5 rounded flex-1 max-w-[55%] mx-auto text-[0.5rem] text-neutral-700 flex items-center justify-center px-1.5">awam.org.my</span>
+        </div>
+        <img :src="'/image/screenshots/awam/page1.png'" class="w-full flex-1 object-cover object-top min-h-0" />
+      </div>
+    </div>
+    <div class="flex flex-col gap-0.5 min-h-0">
+      <div class="flex-1 min-h-0 bg-[#161616] rounded-md border border-white/[0.08] overflow-hidden shadow flex flex-col">
+        <div class="h-5 bg-[#1f1f1f] flex items-center px-2 gap-1 border-b border-white/5 shrink-0">
+          <span class="w-1.5 h-1.5 rounded-full bg-[#ff5f57]"></span><span class="w-1.5 h-1.5 rounded-full bg-[#febc2e]"></span><span class="w-1.5 h-1.5 rounded-full bg-[#28c840]"></span>
+          <span class="h-3 bg-white/5 rounded flex-1 max-w-[55%] mx-auto text-[0.5rem] text-neutral-700 flex items-center justify-center px-1.5">/about-us/</span>
+        </div>
+        <img :src="'/image/screenshots/awam/page2.png'" class="w-full flex-1 object-cover object-top min-h-0" />
+      </div>
+    </div>
+    <div class="flex flex-col gap-0.5 min-h-0">
+      <div class="flex-1 min-h-0 bg-[#161616] rounded-md border border-white/[0.08] overflow-hidden shadow flex flex-col">
+        <div class="h-5 bg-[#1f1f1f] flex items-center px-2 gap-1 border-b border-white/5 shrink-0">
+          <span class="w-1.5 h-1.5 rounded-full bg-[#ff5f57]"></span><span class="w-1.5 h-1.5 rounded-full bg-[#febc2e]"></span><span class="w-1.5 h-1.5 rounded-full bg-[#28c840]"></span>
+          <span class="h-3 bg-white/5 rounded flex-1 max-w-[55%] mx-auto text-[0.5rem] text-neutral-700 flex items-center justify-center px-1.5">/campaigns-2/</span>
+        </div>
+        <img :src="'/image/screenshots/awam/page3.png'" class="w-full flex-1 object-cover object-top min-h-0" />
+      </div>
+    </div>
+    <div class="flex flex-col gap-0.5 min-h-0">
+      <div class="flex-1 min-h-0 bg-[#161616] rounded-md border border-white/[0.08] overflow-hidden shadow flex flex-col">
+        <div class="h-5 bg-[#1f1f1f] flex items-center px-2 gap-1 border-b border-white/5 shrink-0">
+          <span class="w-1.5 h-1.5 rounded-full bg-[#ff5f57]"></span><span class="w-1.5 h-1.5 rounded-full bg-[#febc2e]"></span><span class="w-1.5 h-1.5 rounded-full bg-[#28c840]"></span>
+          <span class="h-3 bg-white/5 rounded flex-1 max-w-[55%] mx-auto text-[0.5rem] text-neutral-700 flex items-center justify-center px-1.5">/training-and-development/</span>
+        </div>
+        <img :src="'/image/screenshots/awam/page4.png'" class="w-full flex-1 object-cover object-top min-h-0" />
+      </div>
+    </div>
+    <div class="flex flex-col gap-0.5 min-h-0">
+      <div class="flex-1 min-h-0 bg-[#161616] rounded-md border border-white/[0.08] overflow-hidden shadow flex flex-col">
+        <div class="h-5 bg-[#1f1f1f] flex items-center px-2 gap-1 border-b border-white/5 shrink-0">
+          <span class="w-1.5 h-1.5 rounded-full bg-[#ff5f57]"></span><span class="w-1.5 h-1.5 rounded-full bg-[#febc2e]"></span><span class="w-1.5 h-1.5 rounded-full bg-[#28c840]"></span>
+          <span class="h-3 bg-white/5 rounded flex-1 max-w-[55%] mx-auto text-[0.5rem] text-neutral-700 flex items-center justify-center px-1.5">/telenita-helpline/</span>
+        </div>
+        <img :src="'/image/screenshots/awam/page5.png'" class="w-full flex-1 object-cover object-top min-h-0" />
+      </div>
+    </div>
+    <div class="flex flex-col gap-0.5 min-h-0">
+      <div class="flex-1 min-h-0 bg-[#161616] rounded-md border border-white/[0.08] overflow-hidden shadow flex flex-col">
+        <div class="h-5 bg-[#1f1f1f] flex items-center px-2 gap-1 border-b border-white/5 shrink-0">
+          <span class="w-1.5 h-1.5 rounded-full bg-[#ff5f57]"></span><span class="w-1.5 h-1.5 rounded-full bg-[#febc2e]"></span><span class="w-1.5 h-1.5 rounded-full bg-[#28c840]"></span>
+          <span class="h-3 bg-white/5 rounded flex-1 max-w-[55%] mx-auto text-[0.5rem] text-neutral-700 flex items-center justify-center px-1.5">/contact-us-2/</span>
+        </div>
+        <img :src="'/image/screenshots/awam/page6.png'" class="w-full flex-1 object-cover object-top min-h-0" />
+      </div>
+    </div>
+  </div>
+</div>
+
+---
+layout: center
+class: text-center
+---
+
+<!-- OUTRO -->
+
+<div class="flex flex-col items-center gap-5">
+  <img src="/image/brand/logo-light.svg" class="w-12 mb-1" />
+  <span class="inline-block bg-[#4F8EF7]/10 text-[#4F8EF7] border border-[#4F8EF7]/25 rounded-full px-3 py-1 text-[0.68rem] font-semibold tracking-[0.1em] uppercase">Ready to build?</span>
+  <h1 class="text-5xl font-bold leading-tight text-white m-0">Let's work together.</h1>
+  <p class="text-base text-neutral-400 max-w-lg leading-relaxed m-0">We build fast, focused digital products for B2B teams. From MVP to production.</p>
+  <a href="mailto:hello@toggle.solutions" class="inline-block bg-[#4F8EF7] text-[#0d0d0d] font-bold text-[0.95rem] py-3 px-7 rounded-full no-underline tracking-wide mt-2">hello@toggle.solutions</a>
 </div>

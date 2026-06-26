@@ -1,0 +1,20 @@
+/* Slide base */
+.slidev-layout {
+  background-color: #0d0d0d;
+  color: #e5e5e5;
+  font-family: 'Inter', sans-serif;
+}
+
+h1, h2, h3 {
+  color: #4F8EF7;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+/* Arrow list bullets — not expressible in Tailwind */
+.value-props li::before {
+  content: '→';
+  position: absolute;
+  left: 0;
+  color: #4F8EF7;
+}
