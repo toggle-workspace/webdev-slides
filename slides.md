@@ -61,8 +61,8 @@ class: p-0
     </div>
     <div class="flex items-center gap-1.5 flex-wrap">
       <span class="text-[0.62rem] font-bold text-neutral-700 uppercase tracking-[0.08em] mr-1">Stack</span>
-      <span class="bg-white/[0.04] border border-white/[0.08] rounded px-2 py-0.5 text-[0.65rem] text-neutral-300">React</span>
-      <span class="bg-white/[0.04] border border-white/[0.08] rounded px-2 py-0.5 text-[0.65rem] text-neutral-300">Tailwind CSS</span>
+      <span class="bg-white/[0.04] border border-white/[0.08] rounded px-2 py-1 flex items-center"><img src="/image/logos/react.svg" class="h-3.5 w-auto" /></span>
+      <span class="bg-white/[0.04] border border-white/[0.08] rounded px-2 py-1 flex items-center"><img src="/image/logos/tailwindcss.svg" class="h-3 w-auto" /></span>
     </div>
   </div>
   <div class="flex items-center justify-center py-8 pr-10 pl-6 bg-white/[0.01] border-l border-white/[0.05]">
@@ -208,7 +208,7 @@ class: p-0
     </div>
     <div class="flex items-center gap-1.5 flex-wrap">
       <span class="text-[0.62rem] font-bold text-neutral-700 uppercase tracking-[0.08em] mr-1">Stack</span>
-      <span class="bg-white/[0.04] border border-white/[0.08] rounded px-2 py-0.5 text-[0.65rem] text-neutral-300">WordPress</span>
+      <span class="bg-white/[0.04] border border-white/[0.08] rounded px-2 py-1 flex items-center"><img src="/image/logos/wordpress.svg" class="h-3.5 w-auto" /></span>
     </div>
   </div>
   <div class="flex items-center justify-center py-8 pr-10 pl-6 bg-white/[0.01] border-l border-white/[0.05]">
@@ -380,7 +380,7 @@ class: p-0
     </div>
     <div class="flex items-center gap-1.5 flex-wrap">
       <span class="text-[0.62rem] font-bold text-neutral-700 uppercase tracking-[0.08em] mr-1">Stack</span>
-      <span class="bg-white/[0.04] border border-white/[0.08] rounded px-2 py-0.5 text-[0.65rem] text-neutral-300">WordPress</span>
+      <span class="bg-white/[0.04] border border-white/[0.08] rounded px-2 py-1 flex items-center"><img src="/image/logos/wordpress.svg" class="h-3.5 w-auto" /></span>
     </div>
   </div>
   <div class="flex items-center justify-center py-8 pr-10 pl-6 bg-white/[0.01] border-l border-white/[0.05]">
