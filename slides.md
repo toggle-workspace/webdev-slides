@@ -87,7 +87,7 @@ class: p-0
         <span class="w-2.5 h-2.5 rounded-full bg-[#28c840] shrink-0"></span>
         <span class="h-3.5 bg-white/5 rounded flex-1 max-w-[60%] mx-auto text-[0.55rem] text-neutral-600 flex items-center justify-center px-2">sourceflow-client.com/jobs</span>
       </div>
-      <img :src="'/image/screenshots/sourceflow/page2.png'" class="w-full object-fit object-top" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" />
+      <img src="/image/screenshots/sourceflow/page2.png" class="w-full object-fit object-top" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" />
       <div class="h-64 bg-white/[0.02] flex items-center justify-center text-neutral-800 text-xs hidden">Job portal screenshot</div>
     </div>
   </div>
@@ -113,7 +113,7 @@ class: p-0
           <span class="w-1.5 h-1.5 rounded-full bg-[#ff5f57]"></span><span class="w-1.5 h-1.5 rounded-full bg-[#febc2e]"></span><span class="w-1.5 h-1.5 rounded-full bg-[#28c840]"></span>
           <span class="h-3 bg-white/5 rounded flex-1 max-w-[55%] mx-auto text-[0.5rem] text-neutral-700 flex items-center justify-center px-1.5">hunterphilips.com</span>
         </div>
-        <img :src="'/image/screenshots/sourceflow/page1.png'" class="w-full flex-1 object-cover object-top min-h-0" />
+        <img src="/image/screenshots/sourceflow/page1.png" class="w-full flex-1 object-cover object-top min-h-0" />
       </div>
     </div>
     <div class="flex flex-col gap-0.5 min-h-0">
@@ -122,7 +122,7 @@ class: p-0
           <span class="w-1.5 h-1.5 rounded-full bg-[#ff5f57]"></span><span class="w-1.5 h-1.5 rounded-full bg-[#febc2e]"></span><span class="w-1.5 h-1.5 rounded-full bg-[#28c840]"></span>
           <span class="h-3 bg-white/5 rounded flex-1 max-w-[55%] mx-auto text-[0.5rem] text-neutral-700 flex items-center justify-center px-1.5">/job/</span>
         </div>
-        <img :src="'/image/screenshots/sourceflow/page2.png'" class="w-full flex-1 object-cover object-top min-h-0" />
+        <img src="/image/screenshots/sourceflow/page2.png" class="w-full flex-1 object-cover object-top min-h-0" />
       </div>
     </div>
     <div class="flex flex-col gap-0.5 min-h-0">
@@ -131,7 +131,7 @@ class: p-0
           <span class="w-1.5 h-1.5 rounded-full bg-[#ff5f57]"></span><span class="w-1.5 h-1.5 rounded-full bg-[#febc2e]"></span><span class="w-1.5 h-1.5 rounded-full bg-[#28c840]"></span>
           <span class="h-3 bg-white/5 rounded flex-1 max-w-[55%] mx-auto text-[0.5rem] text-neutral-700 flex items-center justify-center px-1.5">/sector/</span>
         </div>
-        <img :src="'/image/screenshots/sourceflow/page3.png'" class="w-full flex-1 object-cover object-top min-h-0" />
+        <img src="/image/screenshots/sourceflow/page3.png" class="w-full flex-1 object-cover object-top min-h-0" />
       </div>
     </div>
     <div class="flex flex-col gap-0.5 min-h-0">
@@ -140,7 +140,7 @@ class: p-0
           <span class="w-1.5 h-1.5 rounded-full bg-[#ff5f57]"></span><span class="w-1.5 h-1.5 rounded-full bg-[#febc2e]"></span><span class="w-1.5 h-1.5 rounded-full bg-[#28c840]"></span>
           <span class="h-3 bg-white/5 rounded flex-1 max-w-[55%] mx-auto text-[0.5rem] text-neutral-700 flex items-center justify-center px-1.5">/insights/</span>
         </div>
-        <img :src="'/image/screenshots/sourceflow/page4.png'" class="w-full flex-1 object-cover object-top min-h-0" />
+        <img src="/image/screenshots/sourceflow/page4.png" class="w-full flex-1 object-cover object-top min-h-0" />
       </div>
     </div>
     <div class="flex flex-col gap-0.5 min-h-0">
@@ -149,7 +149,7 @@ class: p-0
           <span class="w-1.5 h-1.5 rounded-full bg-[#ff5f57]"></span><span class="w-1.5 h-1.5 rounded-full bg-[#febc2e]"></span><span class="w-1.5 h-1.5 rounded-full bg-[#28c840]"></span>
           <span class="h-3 bg-white/5 rounded flex-1 max-w-[55%] mx-auto text-[0.5rem] text-neutral-700 flex items-center justify-center px-1.5">/about-us/</span>
         </div>
-        <img :src="'/image/screenshots/sourceflow/page5.png'" class="w-full flex-1 object-cover object-top min-h-0" />
+        <img src="/image/screenshots/sourceflow/page5.png" class="w-full flex-1 object-cover object-top min-h-0" />
       </div>
     </div>
     <div class="flex flex-col gap-0.5 min-h-0">
@@ -158,7 +158,7 @@ class: p-0
           <span class="w-1.5 h-1.5 rounded-full bg-[#ff5f57]"></span><span class="w-1.5 h-1.5 rounded-full bg-[#febc2e]"></span><span class="w-1.5 h-1.5 rounded-full bg-[#28c840]"></span>
           <span class="h-3 bg-white/5 rounded flex-1 max-w-[55%] mx-auto text-[0.5rem] text-neutral-700 flex items-center justify-center px-1.5">/contact-us/</span>
         </div>
-        <img :src="'/image/screenshots/sourceflow/page6.png'" class="w-full flex-1 object-cover object-top min-h-0" />
+        <img src="/image/screenshots/sourceflow/page6.png" class="w-full flex-1 object-cover object-top min-h-0" />
       </div>
     </div>
   </div>
@@ -230,7 +230,7 @@ class: p-0
         <span class="w-2.5 h-2.5 rounded-full bg-[#28c840] shrink-0"></span>
         <span class="h-3.5 bg-white/5 rounded flex-1 max-w-[60%] mx-auto text-[0.55rem] text-neutral-600 flex items-center justify-center px-2">aeroglobalfuels.com/services</span>
       </div>
-      <img :src="'/image/screenshots/aeroglobal/page2.png'" class="w-full flex-1 object-cover object-top" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" />
+      <img src="/image/screenshots/aeroglobal/page2.png" class="w-full flex-1 object-cover object-top" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" />
       <div class="flex-1 bg-white/[0.02] items-center justify-center text-neutral-800 text-xs hidden">Services screenshot</div>
     </div>
     <div class="flex gap-2.5 shrink-0">
@@ -240,7 +240,7 @@ class: p-0
           <span class="w-1.5 h-1.5 rounded-full bg-[#febc2e] shrink-0"></span>
           <span class="w-1.5 h-1.5 rounded-full bg-[#28c840] shrink-0"></span>
         </div>
-        <img :src="'/image/clients/aeroglobal-about.png'" class="w-full h-20 object-cover object-top" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" />
+        <img src="/image/screenshots/aeroglobal/page3.png" class="w-full h-20 object-cover object-top" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" />
         <div class="h-20 bg-white/[0.02] items-center justify-center text-neutral-800 text-xs hidden">About</div>
       </div>
       <div class="flex-1 bg-[#161616] rounded-lg border border-white/[0.09] overflow-hidden shadow">
@@ -249,7 +249,7 @@ class: p-0
           <span class="w-1.5 h-1.5 rounded-full bg-[#febc2e] shrink-0"></span>
           <span class="w-1.5 h-1.5 rounded-full bg-[#28c840] shrink-0"></span>
         </div>
-        <img :src="'/image/clients/aeroglobal-contact.png'" class="w-full h-20 object-cover object-top" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" />
+        <img src="/image/screenshots/aeroglobal/page6.png" class="w-full h-20 object-cover object-top" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" />
         <div class="h-20 bg-white/[0.02] items-center justify-center text-neutral-800 text-xs hidden">Contact</div>
       </div>
     </div>
@@ -276,7 +276,7 @@ class: p-0
           <span class="w-1.5 h-1.5 rounded-full bg-[#ff5f57]"></span><span class="w-1.5 h-1.5 rounded-full bg-[#febc2e]"></span><span class="w-1.5 h-1.5 rounded-full bg-[#28c840]"></span>
           <span class="h-3 bg-white/5 rounded flex-1 max-w-[55%] mx-auto text-[0.5rem] text-neutral-700 flex items-center justify-center px-1.5">agfuels.com.my</span>
         </div>
-        <img :src="'/image/screenshots/aeroglobal/page1.png'" class="w-full flex-1 object-cover object-top min-h-0" />
+        <img src="/image/screenshots/aeroglobal/page1.png" class="w-full flex-1 object-cover object-top min-h-0" />
       </div>
     </div>
     <div class="flex flex-col gap-0.5 min-h-0">
@@ -285,7 +285,7 @@ class: p-0
           <span class="w-1.5 h-1.5 rounded-full bg-[#ff5f57]"></span><span class="w-1.5 h-1.5 rounded-full bg-[#febc2e]"></span><span class="w-1.5 h-1.5 rounded-full bg-[#28c840]"></span>
           <span class="h-3 bg-white/5 rounded flex-1 max-w-[55%] mx-auto text-[0.5rem] text-neutral-700 flex items-center justify-center px-1.5">/services/</span>
         </div>
-        <img :src="'/image/screenshots/aeroglobal/page2.png'" class="w-full flex-1 object-cover object-top min-h-0" />
+        <img src="/image/screenshots/aeroglobal/page2.png" class="w-full flex-1 object-cover object-top min-h-0" />
       </div>
     </div>
     <div class="flex flex-col gap-0.5 min-h-0">
@@ -294,7 +294,7 @@ class: p-0
           <span class="w-1.5 h-1.5 rounded-full bg-[#ff5f57]"></span><span class="w-1.5 h-1.5 rounded-full bg-[#febc2e]"></span><span class="w-1.5 h-1.5 rounded-full bg-[#28c840]"></span>
           <span class="h-3 bg-white/5 rounded flex-1 max-w-[55%] mx-auto text-[0.5rem] text-neutral-700 flex items-center justify-center px-1.5">/about/</span>
         </div>
-        <img :src="'/image/screenshots/aeroglobal/page3.png'" class="w-full flex-1 object-cover object-top min-h-0" />
+        <img src="/image/screenshots/aeroglobal/page3.png" class="w-full flex-1 object-cover object-top min-h-0" />
       </div>
     </div>
     <div class="flex flex-col gap-0.5 min-h-0">
@@ -303,7 +303,7 @@ class: p-0
           <span class="w-1.5 h-1.5 rounded-full bg-[#ff5f57]"></span><span class="w-1.5 h-1.5 rounded-full bg-[#febc2e]"></span><span class="w-1.5 h-1.5 rounded-full bg-[#28c840]"></span>
           <span class="h-3 bg-white/5 rounded flex-1 max-w-[55%] mx-auto text-[0.5rem] text-neutral-700 flex items-center justify-center px-1.5">/approvals/</span>
         </div>
-        <img :src="'/image/screenshots/aeroglobal/page4.png'" class="w-full flex-1 object-cover object-top min-h-0" />
+        <img src="/image/screenshots/aeroglobal/page4.png" class="w-full flex-1 object-cover object-top min-h-0" />
       </div>
     </div>
     <div class="flex flex-col gap-0.5 min-h-0">
@@ -312,7 +312,7 @@ class: p-0
           <span class="w-1.5 h-1.5 rounded-full bg-[#ff5f57]"></span><span class="w-1.5 h-1.5 rounded-full bg-[#febc2e]"></span><span class="w-1.5 h-1.5 rounded-full bg-[#28c840]"></span>
           <span class="h-3 bg-white/5 rounded flex-1 max-w-[55%] mx-auto text-[0.5rem] text-neutral-700 flex items-center justify-center px-1.5">/#safety</span>
         </div>
-        <img :src="'/image/screenshots/aeroglobal/page5.png'" class="w-full flex-1 object-cover object-top min-h-0" />
+        <img src="/image/screenshots/aeroglobal/page5.png" class="w-full flex-1 object-cover object-top min-h-0" />
       </div>
     </div>
     <div class="flex flex-col gap-0.5 min-h-0">
@@ -321,7 +321,7 @@ class: p-0
           <span class="w-1.5 h-1.5 rounded-full bg-[#ff5f57]"></span><span class="w-1.5 h-1.5 rounded-full bg-[#febc2e]"></span><span class="w-1.5 h-1.5 rounded-full bg-[#28c840]"></span>
           <span class="h-3 bg-white/5 rounded flex-1 max-w-[55%] mx-auto text-[0.5rem] text-neutral-700 flex items-center justify-center px-1.5">/contact/</span>
         </div>
-        <img :src="'/image/screenshots/aeroglobal/page6.png'" class="w-full flex-1 object-cover object-top min-h-0" />
+        <img src="/image/screenshots/aeroglobal/page6.png" class="w-full flex-1 object-cover object-top min-h-0" />
       </div>
     </div>
   </div>
@@ -359,7 +359,7 @@ class: p-0
     </div>
   </div>
   <div class="flex items-center justify-center bg-white/[0.01] border-l border-white/[0.05] overflow-hidden">
-    <img :src="'/image/screenshots/awam/cover.png'" class="w-full h-full object-cover object-top" />
+    <img src="/image/screenshots/awam/cover.png" class="w-full h-full object-cover object-top" />
   </div>
 </div>
 
@@ -393,7 +393,7 @@ class: p-0
         <span class="w-2.5 h-2.5 rounded-full bg-[#28c840] shrink-0"></span>
         <span class="h-3.5 bg-white/5 rounded flex-1 max-w-[60%] mx-auto text-[0.55rem] text-neutral-600 flex items-center justify-center px-2">awam.org.my/our-work</span>
       </div>
-      <img :src="'/image/screenshots/awam/page3.png'" class="w-full flex-1 object-cover object-top" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" />
+      <img src="/image/screenshots/awam/page3.png" class="w-full flex-1 object-cover object-top" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" />
       <div class="flex-1 bg-white/[0.02] items-center justify-center text-neutral-800 text-xs hidden">Our work screenshot</div>
     </div>
     <div class="flex gap-2.5 shrink-0">
@@ -403,7 +403,7 @@ class: p-0
           <span class="w-1.5 h-1.5 rounded-full bg-[#febc2e] shrink-0"></span>
           <span class="w-1.5 h-1.5 rounded-full bg-[#28c840] shrink-0"></span>
         </div>
-        <img :src="'/image/clients/awam-reports.png'" class="w-full h-20 object-cover object-top" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" />
+        <img src="/image/screenshots/awam/page4.png" class="w-full h-20 object-cover object-top" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" />
         <div class="h-20 bg-white/[0.02] items-center justify-center text-neutral-800 text-xs hidden">Annual reports</div>
       </div>
       <div class="flex-1 bg-[#161616] rounded-lg border border-white/[0.09] overflow-hidden shadow">
@@ -412,7 +412,7 @@ class: p-0
           <span class="w-1.5 h-1.5 rounded-full bg-[#febc2e] shrink-0"></span>
           <span class="w-1.5 h-1.5 rounded-full bg-[#28c840] shrink-0"></span>
         </div>
-        <img :src="'/image/clients/awam-blog.png'" class="w-full h-20 object-cover object-top" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" />
+        <img src="/image/screenshots/awam/page5.png" class="w-full h-20 object-cover object-top" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" />
         <div class="h-20 bg-white/[0.02] items-center justify-center text-neutral-800 text-xs hidden">Blog</div>
       </div>
     </div>
@@ -439,7 +439,7 @@ class: p-0
           <span class="w-1.5 h-1.5 rounded-full bg-[#ff5f57]"></span><span class="w-1.5 h-1.5 rounded-full bg-[#febc2e]"></span><span class="w-1.5 h-1.5 rounded-full bg-[#28c840]"></span>
           <span class="h-3 bg-white/5 rounded flex-1 max-w-[55%] mx-auto text-[0.5rem] text-neutral-700 flex items-center justify-center px-1.5">awam.org.my</span>
         </div>
-        <img :src="'/image/screenshots/awam/page1.png'" class="w-full flex-1 object-cover object-top min-h-0" />
+        <img src="/image/screenshots/awam/page1.png" class="w-full flex-1 object-cover object-top min-h-0" />
       </div>
     </div>
     <div class="flex flex-col gap-0.5 min-h-0">
@@ -448,7 +448,7 @@ class: p-0
           <span class="w-1.5 h-1.5 rounded-full bg-[#ff5f57]"></span><span class="w-1.5 h-1.5 rounded-full bg-[#febc2e]"></span><span class="w-1.5 h-1.5 rounded-full bg-[#28c840]"></span>
           <span class="h-3 bg-white/5 rounded flex-1 max-w-[55%] mx-auto text-[0.5rem] text-neutral-700 flex items-center justify-center px-1.5">/about-us/</span>
         </div>
-        <img :src="'/image/screenshots/awam/page2.png'" class="w-full flex-1 object-cover object-top min-h-0" />
+        <img src="/image/screenshots/awam/page2.png" class="w-full flex-1 object-cover object-top min-h-0" />
       </div>
     </div>
     <div class="flex flex-col gap-0.5 min-h-0">
@@ -457,7 +457,7 @@ class: p-0
           <span class="w-1.5 h-1.5 rounded-full bg-[#ff5f57]"></span><span class="w-1.5 h-1.5 rounded-full bg-[#febc2e]"></span><span class="w-1.5 h-1.5 rounded-full bg-[#28c840]"></span>
           <span class="h-3 bg-white/5 rounded flex-1 max-w-[55%] mx-auto text-[0.5rem] text-neutral-700 flex items-center justify-center px-1.5">/campaigns-2/</span>
         </div>
-        <img :src="'/image/screenshots/awam/page3.png'" class="w-full flex-1 object-cover object-top min-h-0" />
+        <img src="/image/screenshots/awam/page3.png" class="w-full flex-1 object-cover object-top min-h-0" />
       </div>
     </div>
     <div class="flex flex-col gap-0.5 min-h-0">
@@ -466,7 +466,7 @@ class: p-0
           <span class="w-1.5 h-1.5 rounded-full bg-[#ff5f57]"></span><span class="w-1.5 h-1.5 rounded-full bg-[#febc2e]"></span><span class="w-1.5 h-1.5 rounded-full bg-[#28c840]"></span>
           <span class="h-3 bg-white/5 rounded flex-1 max-w-[55%] mx-auto text-[0.5rem] text-neutral-700 flex items-center justify-center px-1.5">/training-and-development/</span>
         </div>
-        <img :src="'/image/screenshots/awam/page4.png'" class="w-full flex-1 object-cover object-top min-h-0" />
+        <img src="/image/screenshots/awam/page4.png" class="w-full flex-1 object-cover object-top min-h-0" />
       </div>
     </div>
     <div class="flex flex-col gap-0.5 min-h-0">
@@ -475,7 +475,7 @@ class: p-0
           <span class="w-1.5 h-1.5 rounded-full bg-[#ff5f57]"></span><span class="w-1.5 h-1.5 rounded-full bg-[#febc2e]"></span><span class="w-1.5 h-1.5 rounded-full bg-[#28c840]"></span>
           <span class="h-3 bg-white/5 rounded flex-1 max-w-[55%] mx-auto text-[0.5rem] text-neutral-700 flex items-center justify-center px-1.5">/telenita-helpline/</span>
         </div>
-        <img :src="'/image/screenshots/awam/page5.png'" class="w-full flex-1 object-cover object-top min-h-0" />
+        <img src="/image/screenshots/awam/page5.png" class="w-full flex-1 object-cover object-top min-h-0" />
       </div>
     </div>
     <div class="flex flex-col gap-0.5 min-h-0">
@@ -484,7 +484,7 @@ class: p-0
           <span class="w-1.5 h-1.5 rounded-full bg-[#ff5f57]"></span><span class="w-1.5 h-1.5 rounded-full bg-[#febc2e]"></span><span class="w-1.5 h-1.5 rounded-full bg-[#28c840]"></span>
           <span class="h-3 bg-white/5 rounded flex-1 max-w-[55%] mx-auto text-[0.5rem] text-neutral-700 flex items-center justify-center px-1.5">/contact-us-2/</span>
         </div>
-        <img :src="'/image/screenshots/awam/page6.png'" class="w-full flex-1 object-cover object-top min-h-0" />
+        <img src="/image/screenshots/awam/page6.png" class="w-full flex-1 object-cover object-top min-h-0" />
       </div>
     </div>
   </div>
