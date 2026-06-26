@@ -49,8 +49,8 @@ class: p-0
       <img src="/image/logos/tailwindcss.svg" class="h-3 w-auto" />
     </div>
   </div>
-  <div class="flex items-center justify-center py-8 pr-10 pl-6 bg-white/[0.01] border-l border-white/[0.05]">
-    <img src="/image/screenshots/hp-cover.png" class="w-full block" />
+  <div class="flex items-center justify-center bg-white/[0.01] border-l border-white/[0.05] overflow-hidden">
+    <img src="/image/screenshots/hp-cover.png" class="w-full h-full object-cover object-top" />
   </div>
 </div>
 
@@ -195,17 +195,8 @@ class: p-0
       <img src="/image/logos/wordpress.svg" class="h-3.5 w-auto" />
     </div>
   </div>
-  <div class="flex items-center justify-center py-8 pr-10 pl-6 bg-white/[0.01] border-l border-white/[0.05]">
-    <div class="w-full bg-[#161616] rounded-lg border border-white/10 overflow-hidden shadow-[0_20px_60px_rgba(0,0,0,0.6)]">
-      <div class="h-7 bg-[#1f1f1f] flex items-center px-3 gap-1.5 border-b border-white/5">
-        <span class="w-2.5 h-2.5 rounded-full bg-[#ff5f57] shrink-0"></span>
-        <span class="w-2.5 h-2.5 rounded-full bg-[#febc2e] shrink-0"></span>
-        <span class="w-2.5 h-2.5 rounded-full bg-[#28c840] shrink-0"></span>
-        <span class="h-3.5 bg-white/5 rounded flex-1 max-w-[60%] mx-auto text-[0.55rem] text-neutral-600 flex items-center justify-center px-2">aeroglobalfuels.com</span>
-      </div>
-      <img :src="'/image/clients/aeroglobal-hero.png'" class="w-full block aspect-video object-cover object-top" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" />
-      <div class="w-full aspect-video bg-white/[0.02] items-center justify-center text-neutral-800 text-xs hidden">Homepage screenshot</div>
-    </div>
+  <div class="flex items-center justify-center bg-white/[0.01] border-l border-white/[0.05] overflow-hidden">
+    <img :src="'/image/clients/aeroglobal-hero.png'" class="w-full h-full object-cover object-top" />
   </div>
 </div>
 
